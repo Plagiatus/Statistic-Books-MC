@@ -1,0 +1,1 @@
+function sb:setup_objectives
