@@ -52,7 +52,7 @@ async function run() {
 
 	let functionFileContent = "### AUTOMATICALLY GENERATED!\n### DO NOT EDIT MANUALLY!\n\n";
 	for (let stat of allStats) {
-		functionFileContent += `scoreboard objectives add ${stat.replace(":", ".")} ${stat}\n`;
+		functionFileContent += `scoreboard objectives add sb.${stat.replace(":", ".")} ${stat}\n`;
 	}
 	fs.writeFileSync("../data/sb/functions/setup_objectives.mcfunction", functionFileContent);
 }
