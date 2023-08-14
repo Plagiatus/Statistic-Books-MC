@@ -1,5 +1,6 @@
 {
 	"values": [
-		"sb:load"
+		"sb:load",
+		"sort:load"
 	]
 }
