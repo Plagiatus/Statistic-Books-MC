@@ -8,6 +8,7 @@
 
 # store given data in own storage object for speed and to know where it's located
 $data modify storage sort:search array set from $(type) $(target) $(targetPath)
+# $say $(type) $(target) $(targetPath)
 data merge storage sort:search {result:[]}
 
 # fill options with defaults
@@ -21,4 +22,4 @@ execute store result score #n sort.tmp run data get storage sort:search array
 execute if score #n sort.tmp matches 1.. run function sort:search/run with storage sort:search
 
 # copy the result to the original array
-$data modify $(type) $(target) $(targetPath) set from storage sort:search array
+$data modify $(type) $(target) $(targetPath) set from storage sort:search result

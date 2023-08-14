@@ -7,9 +7,17 @@ scoreboard players set #lowest sort.tmp 2147483647
 scoreboard players set #lowestIndex sort.tmp -1
 scoreboard players set #i sort.tmp 0
 
+# end if rest is sorted
+scoreboard players set #isSorted sort.tmp 1
+scoreboard players set #previous sort.tmp -2147483648
+
 data modify storage sort:search tmpArray set from storage sort:search array
 
 function sort:search/inner with storage sort:search
+
+# is the remaining array already fully sorted?
+execute if score #isSorted sort.tmp matches 1 run data modify storage sort:search result append from storage sort:search array[]
+execute if score #isSorted sort.tmp matches 1 run return 1
 
 execute store result storage sort:search i int 1 run scoreboard players get #lowestIndex sort.tmp
 function sort:search/copy_lowest with storage sort:search
