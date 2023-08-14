@@ -1,5 +1,11 @@
 function sb:setup_objectives
 scoreboard objectives add sb.tmp dummy
+scoreboard objectives add sb.settings dummy
+
+# setup default settings
+execute unless score refreshType sb.settings = refreshType sb.settings run scoreboard players set refreshType sb.settings 0
+execute unless score refreshTime sb.settings = refreshTime sb.settings run scoreboard players set refreshTime sb.settings 60
+execute unless score autoOptIn sb.settings = autoOptIn sb.settings run scoreboard players set autoOptIn sb.settings 1
 
 # setup the storage
 execute store success score #s sb.tmp if data storage sb:tracking tracked
@@ -9,5 +15,7 @@ execute if score #s sb.tmp matches 0 run data modify storage sb:tracking storage
 execute store success score #s sb.tmp if data storage sb:tracking names
 execute if score #s sb.tmp matches 0 run data modify storage sb:tracking names set value []
 
+scoreboard players set #needsSorting sb.tmp 1
+
 # start the storing system
-# function sb:store/run
+function sb:store/run

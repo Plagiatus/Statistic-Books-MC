@@ -1,0 +1,52 @@
+[
+	{
+		"function": "set_name",
+		"name": {
+			"translate": "sb.book.title",
+			"text": "Statistics Book",
+			"italic": false,
+			"color": "gold"
+		}
+	},
+	{
+		"function": "set_lore",
+		"lore": [
+			{
+				"translate": "sb.book.lore.1",
+				"text": "Automatically lists everyones statistic."
+			},
+			{
+				"translate": "sb.book.lore.2",
+				"text": "Needs to be placed in lectern."
+			},
+			{
+				"translate": "sb.book.lore.3",
+				"text": "Tracked statistic:"
+			},
+			{
+				"nbt": "newBook.value",
+				"storage": "sb:tmp"
+			}
+		],
+		"entity": "this",
+		"replace": true
+	},
+	{
+		"function": "set_nbt",
+		"tag": "{statBook: true, pages:[]}"
+	},
+	{
+		"function": "copy_nbt",
+		"source": {
+			"type": "storage",
+			"source": "sb:tmp"
+		},
+		"ops": [
+			{
+				"source": "newBook.value",
+				"target": "stat",
+				"op": "replace"
+			}
+		]
+	}
+]
