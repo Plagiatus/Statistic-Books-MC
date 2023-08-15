@@ -5,6 +5,7 @@ scoreboard objectives add sb.optedin dummy
 scoreboard objectives add sb.optin trigger
 scoreboard objectives add sb.update trigger
 scoreboard objectives add sb.secret trigger
+scoreboard objectives add sb.help trigger
 
 # setup default settings
 execute unless score refreshType sb.settings = refreshType sb.settings run scoreboard players set refreshType sb.settings 0
