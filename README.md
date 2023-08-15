@@ -1,5 +1,7 @@
 # Statistic-Books-MC
-A Datapack that tracks all statistics in scores and allows to display highscores in books
+A Datapack that tracks all statistics in scores and allows to display highscores in books.
+
+### MINECRAFT VERSION 23w31a (1.20.2) and above!
 
 **To use this datapack, click on the green "Code" button in the top right, choose "Download Zip" and put this zip file as-is into your worlds `datapacks` folder.**
 
