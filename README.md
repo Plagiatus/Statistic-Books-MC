@@ -1,7 +1,7 @@
 # Statistic-Books-MC
 A Datapack that tracks all statistics in scores and allows to display highscores in books
 
-**Do use this datapack, click on the green "Code" button in the top right, choose "Download Zip" and put this zip file as-is into your worlds `datapacks` folder.**
+**To use this datapack, click on the green "Code" button in the top right, choose "Download Zip" and put this zip file as-is into your worlds `datapacks` folder.**
 
 ## What it is
 
@@ -21,7 +21,7 @@ Because the way scoreboards work, only online players can be queried for their s
 
 ### How to get a book
 
-To get a book that works in the system, you take a writable book, put the name of the objective you want to track as the only text in the book on the first page (no spaces or newlines), sign the book and name it "MCStats". The book gets converted _automatically (if I can figure out a way to do that - it might need an extra step for conversion)_. You know it worked when the books title is golden.
+To get a book that works in the system, you take a writable book, put the name of the objective you want to track as the only text in the book on the first page (no spaces or newlines), sign the book and name it "MCStats". The book gets converted _automatically when first put into a lectern_. You know it worked when the books title is golden.
 
 For the book to actually receive updates about the tracked statistics, **it needs to be placed inside a lectern** and, depending on the settings, be loaded when a refresh occurs.
 
