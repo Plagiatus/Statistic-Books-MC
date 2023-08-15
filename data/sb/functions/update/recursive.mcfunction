@@ -7,10 +7,14 @@ function sb:update/get_name with storage sb:tmp book
 function sb:update/combine with storage sb:tmp book
 data merge storage sb:tmp {book:{tmp:'"}]'}}
 function sb:update/combine with storage sb:tmp book
+
+execute if score allowSecret sb.settings matches 1..2 if score #sec sb.tmp matches 1 run data modify storage sb:tmp book.page set value '["",{"bold":true,"text":"???"}]'
+
 data modify storage sb:tmp book.pageArray append from storage sb:tmp book.page
 
 data merge storage sb:tmp {book:{page:'["",{"italic":true,"text":"'}}
 data modify storage sb:tmp book.tmp set string storage sb:tmp array[0].value
+execute if score allowSecret sb.settings matches 1..2 if score #sec sb.tmp matches 2 run data modify storage sb:tmp book.tmp set value "???"
 function sb:update/combine with storage sb:tmp book
 data merge storage sb:tmp {book:{tmp:'"}]'}}
 function sb:update/combine with storage sb:tmp book
