@@ -3,7 +3,23 @@ A Datapack that tracks all statistics in scores and allows to display highscores
 
 **To use this datapack, click on the green "Code" button in the top right, choose "Download Zip" and put this zip file as-is into your worlds `datapacks` folder.**
 
-## What it is
+Run `/trigger sb.help` to get a setting-sensitive in-game overview of how it works for players. Admins/OPs and more informed players can read on.
+
+## Table of contents
+- [What it does](#what-it-does)
+	- [Limitations](#limitations)
+	- [How to get a book](#how-to-get-a-book)
+		- [How to know the scoreboard name](#how-to-know-the-scoreboard-name)
+	- [Secret Mode](#secret-mode)
+- [Settings](#settings)
+	- [`autoOptIn`](#autooptin)
+	- [`allowSecret`](#allowsecret)
+	- [`refreshType`](#refreshtype)
+- [Other modifications](#other-modifications)
+	- [Text](#text)
+	- [Administrative work](#administrative-work)
+
+## What it does
 
 This datapack allows you to track any and all statistics or other scoreboard objectives in a book in a lectern. It sorts it by highest and thus shows whoever has the best score.
 
@@ -21,7 +37,7 @@ Because the way scoreboards work, only online players can be queried for their s
 
 ### How to get a book
 
-To get a book that works in the system, you take a writable book, put the name of the objective you want to track as the only text in the book on the first page (no spaces or newlines), sign the book and name it "MCStats". The book gets converted _automatically when first put into a lectern_. You know it worked when the books title is golden.
+To get a book that works in the system, you take a writable book, put the name of the objective you want to track as the only text in the book on the first page (no spaces or newlines), sign the book and name it "MCStats". The book gets converted _automatically when first put into a lectern_. You know it worked when the books content is replaced by the statistics (or empty at first, it takes up to 5 minutes to fill).
 
 For the book to actually receive updates about the tracked statistics, **it needs to be placed inside a lectern** and, depending on the settings, be loaded when a refresh occurs.
 
