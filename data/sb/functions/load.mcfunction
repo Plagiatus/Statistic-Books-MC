@@ -1,4 +1,4 @@
-function sb:setup_objectives
+# function sb:setup_objectives
 scoreboard objectives add sb.tmp dummy
 scoreboard objectives add sb.settings dummy
 scoreboard objectives add sb.optedin dummy
