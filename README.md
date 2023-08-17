@@ -1,11 +1,10 @@
-# Statistic-Books-MC
-A Datapack that tracks all statistics in scores and allows to display highscores in books.
+# Statistic-Books-MCA Datapack that tracks all statistics in scores and allows to display highscores in books.
 
 ### MINECRAFT VERSION 23w31a (1.20.2) and above!
 
 **To use this datapack, click on the green "Code" button in the top right, choose "Download Zip" and put this zip file as-is into your worlds `datapacks` folder.**
 
-Run `/trigger sb.help` to get a setting-sensitive in-game overview of how it works for players. Admins/OPs and more informed players can read on.
+Run `/trigger sb.help` to get a setting-sensitive in-game overview of how it works for players. Admins/OPs and more informed players should read on.
 
 ## Table of contents
 - [What it does](#what-it-does)
@@ -25,11 +24,14 @@ Run `/trigger sb.help` to get a setting-sensitive in-game overview of how it wor
 
 This datapack allows you to track any and all statistics or other scoreboard objectives in a book in a lectern. It sorts it by highest and thus shows whoever has the best score.
 
+NOTE: All statistics are tracked through scoreboards. Because of this they cannot start tracking before they are created. So remember to create your scoreboards early. This pack comes with a built-in function that sets up all possible objectives for you, see [How to know the scoreboard name](#how-to-know-the-scoreboard-name).
+
 ### Limitations
 
 Because under the hood it has to use scoreboard objectives, and scoreboard objectives only start tracking numbers when they are created and don't retroactively include the already happened things, the pack only starts tracking all the built-in statistics from the point it is added, not the point of world creation. It is thus **recommended to add the pack at world creation** or immediately afterwards.
 
 Because the way scoreboards work, only online players can be queried for their scores. To be able to also include offline players, this pack caches all players tracked scores **every 5 minutes**. This has various implications:
+
 
 - Scores aren't updated live, but at max every 5 minutes.
 - Players who aren't online for at least 5 minutes might not have their scores recorded.
@@ -45,7 +47,7 @@ For the book to actually receive updates about the tracked statistics, **it need
 
 #### How to know the scoreboard name
 
-You can track **any scoreboard objective**, not just the built-in ones but ones you create yourself as well. The pack automatically creates all statistic type scoreboards the game has to offer - just shy of 8000 of them. **If you don't want that, delete the `data/sb/functions/setup_objectives.mcfunction` file before loading the datapack!**
+You can track **any scoreboard objective**, not just the built-in ones but ones you create yourself as well. The pack comes with a function that creates all statistic type scoreboards the game has to offer - just shy of 8000 of them. **If you want to add that, run `/function sb:setup_objectives` right after loading the datapack!**
 
 To find out what statistics are available, consult the wiki: https://minecraft.fandom.com/wiki/Statistics
 
