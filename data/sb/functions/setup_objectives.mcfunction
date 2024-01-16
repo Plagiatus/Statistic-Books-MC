@@ -498,7 +498,7 @@ scoreboard objectives add sb.broken.granite broken:granite
 scoreboard objectives add sb.broken.granite_slab broken:granite_slab
 scoreboard objectives add sb.broken.granite_stairs broken:granite_stairs
 scoreboard objectives add sb.broken.granite_wall broken:granite_wall
-scoreboard objectives add sb.broken.grass broken:grass
+scoreboard objectives add sb.broken.short_grass broken:short_grass
 scoreboard objectives add sb.broken.grass_block broken:grass_block
 scoreboard objectives add sb.broken.gravel broken:gravel
 scoreboard objectives add sb.broken.gray_banner broken:gray_banner
@@ -1753,7 +1753,7 @@ scoreboard objectives add sb.crafted.granite crafted:granite
 scoreboard objectives add sb.crafted.granite_slab crafted:granite_slab
 scoreboard objectives add sb.crafted.granite_stairs crafted:granite_stairs
 scoreboard objectives add sb.crafted.granite_wall crafted:granite_wall
-scoreboard objectives add sb.crafted.grass crafted:grass
+scoreboard objectives add sb.crafted.short_grass crafted:short_grass
 scoreboard objectives add sb.crafted.grass_block crafted:grass_block
 scoreboard objectives add sb.crafted.gravel crafted:gravel
 scoreboard objectives add sb.crafted.gray_banner crafted:gray_banner
@@ -3083,7 +3083,7 @@ scoreboard objectives add sb.dropped.granite dropped:granite
 scoreboard objectives add sb.dropped.granite_slab dropped:granite_slab
 scoreboard objectives add sb.dropped.granite_stairs dropped:granite_stairs
 scoreboard objectives add sb.dropped.granite_wall dropped:granite_wall
-scoreboard objectives add sb.dropped.grass dropped:grass
+scoreboard objectives add sb.dropped.short_grass dropped:short_grass
 scoreboard objectives add sb.dropped.grass_block dropped:grass_block
 scoreboard objectives add sb.dropped.gravel dropped:gravel
 scoreboard objectives add sb.dropped.gray_banner dropped:gray_banner
@@ -4471,7 +4471,7 @@ scoreboard objectives add sb.mined.granite mined:granite
 scoreboard objectives add sb.mined.granite_slab mined:granite_slab
 scoreboard objectives add sb.mined.granite_stairs mined:granite_stairs
 scoreboard objectives add sb.mined.granite_wall mined:granite_wall
-scoreboard objectives add sb.mined.grass mined:grass
+scoreboard objectives add sb.mined.short_grass mined:short_grass
 scoreboard objectives add sb.mined.grass_block mined:grass_block
 scoreboard objectives add sb.mined.gravel mined:gravel
 scoreboard objectives add sb.mined.gray_banner mined:gray_banner
@@ -5589,7 +5589,7 @@ scoreboard objectives add sb.picked_up.granite picked_up:granite
 scoreboard objectives add sb.picked_up.granite_slab picked_up:granite_slab
 scoreboard objectives add sb.picked_up.granite_stairs picked_up:granite_stairs
 scoreboard objectives add sb.picked_up.granite_wall picked_up:granite_wall
-scoreboard objectives add sb.picked_up.grass picked_up:grass
+scoreboard objectives add sb.picked_up.short_grass picked_up:short_grass
 scoreboard objectives add sb.picked_up.grass_block picked_up:grass_block
 scoreboard objectives add sb.picked_up.gravel picked_up:gravel
 scoreboard objectives add sb.picked_up.gray_banner picked_up:gray_banner
@@ -6844,7 +6844,7 @@ scoreboard objectives add sb.used.granite used:granite
 scoreboard objectives add sb.used.granite_slab used:granite_slab
 scoreboard objectives add sb.used.granite_stairs used:granite_stairs
 scoreboard objectives add sb.used.granite_wall used:granite_wall
-scoreboard objectives add sb.used.grass used:grass
+scoreboard objectives add sb.used.short_grass used:short_grass
 scoreboard objectives add sb.used.grass_block used:grass_block
 scoreboard objectives add sb.used.gravel used:gravel
 scoreboard objectives add sb.used.gray_banner used:gray_banner
