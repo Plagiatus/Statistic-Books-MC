@@ -10,5 +10,5 @@ execute if score autoOptIn sb.settings matches 1 as @a at @s run function sb:sto
 execute if score autoOptIn sb.settings matches 0 as @a[scores={sb.optedin=1}] at @s run function sb:store/player
 
 # check if needs to run again
-scoreboard players remove #amt sb.tmp 1
-execute if score #amt sb.tmp matches 1.. run function sb:store/all
+scoreboard players remove #amt sb.update 1
+execute if score #amt sb.update matches 1.. run schedule function sb:store/all 1t
