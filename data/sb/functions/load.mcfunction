@@ -23,6 +23,7 @@ execute if score #s sb.tmp matches 0 run data modify storage sb:tracking names s
 scoreboard players set #needsSorting sb.tmp 1
 
 # start the storing system
+scoreboard players set #amt sb.update 0
 function sb:store/run
 
 # start the trigger checks
