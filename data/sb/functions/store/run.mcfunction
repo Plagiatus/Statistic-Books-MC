@@ -17,6 +17,3 @@ kill @e[type=text_display,tag=sb_temp_name]
 
 # run the process for every tracked display
 execute if score #amt sb.update matches 1.. run function sb:store/all
-
-# if setup in the settings, run a global update
-execute if score refreshType sb.settings matches 3 run schedule function sb:update/all 1s

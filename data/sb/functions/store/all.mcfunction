@@ -12,3 +12,6 @@ execute if score autoOptIn sb.settings matches 0 as @a[scores={sb.optedin=1}] at
 # check if needs to run again
 scoreboard players remove #amt sb.update 1
 execute if score #amt sb.update matches 1.. run schedule function sb:store/all 1t
+
+# if setup in the settings, run a global update
+execute if score #amt sb.update matches 0 if score refreshType sb.settings matches 3 run schedule function sb:update/all 1s
