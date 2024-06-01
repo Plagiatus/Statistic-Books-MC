@@ -28,3 +28,6 @@ function sb:store/run
 
 # start the trigger checks
 function sb:loop
+
+# remove broken, empty names
+function sb:store/name/cleanup/reset_empty
