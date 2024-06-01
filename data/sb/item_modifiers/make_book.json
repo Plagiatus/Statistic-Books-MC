@@ -29,14 +29,14 @@
 			}
 		],
 		"entity": "this",
-		"replace": true
+		"mode": "replace_all"
 	},
 	{
-		"function": "set_nbt",
-		"tag": "{statBook: true, pages:[]}"
+		"function": "set_custom_data",
+		"tag": "{statBook: true}"
 	},
 	{
-		"function": "copy_nbt",
+		"function": "copy_custom_data",
 		"source": {
 			"type": "storage",
 			"source": "sb:tmp"
@@ -48,5 +48,10 @@
 				"op": "replace"
 			}
 		]
+	},
+	{
+		"function": "set_written_book_pages",
+		"pages": [],
+		"mode": "replace_all"
 	}
 ]

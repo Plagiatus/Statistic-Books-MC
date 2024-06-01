@@ -1,5 +1,5 @@
 # find obj and sort it
-data modify storage sb:tmp book.obj set from block ~ ~ ~ Book.tag.stat
+data modify storage sb:tmp book.obj set from block ~ ~ ~ Book.components."minecraft:custom_data".stat
 execute if score #needsSorting sb.tmp matches 1 run function sb:update/sort_one with storage sb:tmp book
 execute if score #needsSorting sb.tmp matches 0 run function sb:update/copy_one with storage sb:tmp book
 
@@ -7,7 +7,7 @@ execute if score #needsSorting sb.tmp matches 0 run function sb:update/copy_one 
 data merge storage sb:tmp {book: {pages: [], page: '', pageArray: [], tmp: ''}}
 
 # check secret level
-execute store result score #sec sb.tmp run data get block ~ ~ ~ Book.tag.secret
+execute store result score #sec sb.tmp run data get block ~ ~ ~ Book.components."minecraft:custom_data".secret
 
 # summon armorstand with item to have item to use as a text combinator
 # because using item modifier with lore is a convenient way to combine text
@@ -23,6 +23,6 @@ execute if score #n sb.tmp matches 0 run data merge storage sb:tmp {book: {pages
 execute if score #n sb.tmp matches 1.. run function sb:update/recursive
 execute unless score #i sb.tmp matches 0 run function sb:update/new_page
 
-data modify block ~ ~ ~ Book.tag.pages set from storage sb:tmp book.pages
+data modify block ~ ~ ~ Book.components."minecraft:written_book_content".pages set from storage sb:tmp book.pages
 
 schedule function sb:update/cleanup 1t

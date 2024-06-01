@@ -10,6 +10,7 @@
 			}
 		],
 		"entity": "this",
+		"mode": "replace_all",
 		"replace": true
 	}
 ]
