@@ -12,8 +12,6 @@ execute store result score #amt sb.update run data get storage sb:tmp tracked
 
 # setup uuid -> name
 execute as @a at @s run function sb:store/name/setup with entity @s
-# remove text displays
-kill @e[type=text_display,tag=sb_temp_name]
 
 # run the process for every tracked display
 execute if score #amt sb.update matches 1.. run function sb:store/all
