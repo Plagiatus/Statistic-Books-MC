@@ -6,7 +6,7 @@
 				"location": [
 					{
 						"condition": "minecraft:location_check",
-						"location": {
+						"predicate": {
 							"block": {
 								"blocks": [
 									"minecraft:lectern"
