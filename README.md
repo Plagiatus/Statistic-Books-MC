@@ -2,7 +2,7 @@
 
 ### MINECRAFT VERSION 23w31a (1.20.2) and above!
 
-**To use this datapack, click on the green "Code" button in the top right, choose "Download Zip" and put this zip file as-is into your worlds `datapacks` folder.**
+**To use this datapack, to go the [latest release](https://github.com/Plagiatus/Statistic-Books-MC/releases/latest) and download the zip file.**
 
 Run `/trigger sb.help` to get a setting-sensitive in-game overview of how it works for players. Admins/OPs and more informed players should read on.
 
