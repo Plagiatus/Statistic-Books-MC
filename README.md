@@ -1,8 +1,10 @@
 # Statistic-Books-MCA Datapack that tracks all statistics in scores and allows to display highscores in books.
 
+[![Modrinth Downloads](https://img.shields.io/modrinth/dt/statisticbooks?style=for-the-badge&label=Modrinth%20Downloads&logo=modrinth&color=%231bd96a)](https://modrinth.com/datapack/statisticbooks)
+
 ### MINECRAFT VERSION 23w31a (1.20.2) and above!
 
-**To use this datapack, to go the [latest release](https://github.com/Plagiatus/Statistic-Books-MC/releases/latest) and download the zip file.**
+**To use this datapack, download it from [modrinth](https://modrinth.com/datapack/statisticbooks) to go the [latest release](https://github.com/Plagiatus/Statistic-Books-MC/releases/latest) and download the zip file.**
 
 Run `/trigger sb.help` to get a setting-sensitive in-game overview of how it works for players. Admins/OPs and more informed players should read on.
 
