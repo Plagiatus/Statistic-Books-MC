@@ -54,7 +54,7 @@ async function run() {
 	for (let stat of allStats) {
 		functionFileContent += `scoreboard objectives add sb.${stat.replace(":", ".")} ${stat}\n`;
 	}
-	fs.writeFileSync("../data/sb/functions/setup_objectives.mcfunction", functionFileContent);
+	fs.writeFileSync("../data/sb/function/setup_objectives.mcfunction", functionFileContent);
 }
 async function getData() {
 	customStats.push(...cleanUpRawData(await getAsync(customFolder)));
