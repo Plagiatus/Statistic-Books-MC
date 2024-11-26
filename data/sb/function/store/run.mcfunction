@@ -7,6 +7,10 @@ execute if score #amt sb.update matches 1.. run return 0
 # run again in 5 minutes
 schedule function sb:store/run 300s replace
 
+# update all custom values that are registered in the function tag
+execute as @a run function #sb:run_before
+
+# setup run data
 data modify storage sb:tmp tracked set from storage sb:tracking tracked
 execute store result score #amt sb.update run data get storage sb:tmp tracked
 
