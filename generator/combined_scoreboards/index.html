@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combining Scoreboards Generator</title>
+    <script src="script.js" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+    <script src="jszip.min.js"></script>
+
+    <style>
+        fieldset {
+            border: 1px solid gray;
+            padding: 0.5rem;
+            margin: 0.5rem;
+        }
+    </style>
+</head>
+<body class="m-3">
+    <h1>Scoreboard Combiner</h1>
+    <p>
+        <h2>How to</h2>
+        Enter into the Input field(s) all the scoreboard objectives that you want to combine. <br>
+        Enter into the Output field the scoreboard objective that you want them to be combined into. <br>
+        <br>
+        Click either the "create function" button to get a function file or "create datapack" button to create an entire datapack with this function and a tag to work with the mcstats book tag.
+
+        <p class="alert alert-warning">
+            WARNING: Only works out of the box with version 1.5.1 of the datapack or above! <a href="https://github.com/Plagiatus/Statistic-Books-MC/releases/latest">Get the latest release here.</a>
+        </p>
+
+    </p>
+    <div id="wrapper">
+    </div>
+    <button class="m-1 btn btn-success" id="more">more objectives</button><br>
+    <button class="m-1 btn btn-secondary" id="function">create function</button>
+    <button class="m-1 btn btn-primary" id="datapack">create datapack</button>
+</body>
+</html>
