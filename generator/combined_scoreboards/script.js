@@ -45,7 +45,7 @@ document.getElementById("function").addEventListener("click", createFunction);
 document.getElementById("datapack").addEventListener("click", createDatapack);
 
 function createFunction() {
-    let file = new File([getFunctionText()], "test.txt", { type: "text/plain;charset=utf-8" });
+    let file = new File([getFunctionText()], "combine_scores.mcfunction", { type: "text/plain;charset=utf-8" });
     saveAs(file);
 }
 
