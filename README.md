@@ -20,6 +20,7 @@ Run `/trigger sb.help` to get a setting-sensitive in-game overview of how it wor
 	- [`refreshType`](#refreshtype)
 - [Other modifications](#other-modifications)
 	- [Text](#text)
+    - [Combining Scoreboards](#combining-scoreboards)
 	- [Administrative work](#administrative-work)
 
 ## What it does
@@ -134,6 +135,14 @@ List of included texts:
 |sb.secret.default|Secret Mode: No secrets.|
 |sb.secret.names|Secret Mode: Names hidden.|
 |sb.secret.scores|Secret Mode: Scores hidden.|
+
+### Combining Scoreboards
+
+Sometimes you want to have a scoreboard that isn't easily tracked by the default stats, because it's a combination of two different scores / stats.  
+Starting in `v1.5.1` you can register a function to the `sb:run_before` function tag that is run `as @a` before the player scores are stored in the storage.  
+This lets you easily add combined scoreboards that are tallied up just-in-time instead of needing to combine them constantly.
+
+You can use [this Scoreboard Combiner Utility](https://plagiatus.github.io/Statistic-Books-MC/generator/combined_scoreboards/) to create such combined scoreboards easily.
 
 ### Administrative work
 If you want / need to get into the nitty gritty of the administrative side (removing tracked statistics, removing players, etc), it's probably easiest to contact me directly at contact@plagiatus.net or use my [contact form](https://plagiatus.net/#contact) on my website.
