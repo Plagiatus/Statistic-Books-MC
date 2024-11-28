@@ -30,7 +30,8 @@ NOTE: All statistics are tracked through scoreboards. Because of this they canno
 
 ### Limitations
 
-Because under the hood it has to use scoreboard objectives, and scoreboard objectives only start tracking numbers when they are created and don't retroactively include the already happened things, the pack only starts tracking all the built-in statistics from the point it is added, not the point of world creation. It is thus **recommended to add the pack at world creation** or immediately afterwards.
+Because under the hood it has to use scoreboard objectives, and scoreboard objectives only start tracking numbers when they are created and don't retroactively include the already happened things, the pack only starts tracking all the built-in statistics from the point it is added, not the point of world creation. It is thus **recommended to add the pack at world creation** or immediately afterwards.  
+**If you want to add it later to a world, you can use my [stats to scoreboards](https://plagiatus.github.io/Statistic-Books-MC/generator/stats_to_scoreboard) tool to bring the new scoreboard objectives up to sync with your existing stats.**
 
 Because the way scoreboards work, only online players can be queried for their scores. To be able to also include offline players, this pack caches all players tracked scores **every 5 minutes**. This has various implications:
 
