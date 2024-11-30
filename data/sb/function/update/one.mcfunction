@@ -1,7 +1,11 @@
+# if there is no custom book in this lectern, don't run this function
+execute unless data block ~ ~ ~ Book.components."minecraft:custom_data".stat run return 0
+
 # find obj and sort it
 data modify storage sb:tmp book.obj set from block ~ ~ ~ Book.components."minecraft:custom_data".stat
 execute if score #needsSorting sb.tmp matches 1 run function sb:update/sort_one with storage sb:tmp book
 execute if score #needsSorting sb.tmp matches 0 run function sb:update/copy_one with storage sb:tmp book
+# tellraw @a [{"text": "update/one: "}, {"storage": "sb:tmp", "nbt": "book.obj"}, " | loc:", {"entity": "@s", "nbt": "Pos"}]
 
 # reset book pages
 data merge storage sb:tmp {book: {pages: [], page: '', pageArray: [], tmp: ''}}
