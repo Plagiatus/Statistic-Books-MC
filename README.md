@@ -138,7 +138,7 @@ List of included texts:
 
 ### Combining Scoreboards
 
-Sometimes you want to have a scoreboard that isn't easily tracked by the default stats, because it's a combination of two different scores / stats.  
+Sometimes you want to have a scoreboard that isn't easily tracked by the default stats, because it's a combination of two or more different scores / stats.  
 Starting in `v1.5.1` you can register a function to the `sb:run_before` function tag that is run `as @a` before the player scores are stored in the storage.  
 This lets you easily add combined scoreboards that are tallied up just-in-time instead of needing to combine them constantly.
 
