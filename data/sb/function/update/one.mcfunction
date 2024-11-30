@@ -11,7 +11,7 @@ execute store result score #sec sb.tmp run data get block ~ ~ ~ Book.components.
 
 # summon armorstand with item to have item to use as a text combinator
 # because using item modifier with lore is a convenient way to combine text
-execute unless entity @e[type=armor_stand,tag=sb.itemholder] run summon armor_stand ~ 500 ~ {Tags: ["sb.itemholder"], HandItems: [{id: "minecraft:stone", Count: 1b}, {}], Invisible: 1b, Invulnerable: 1b, NoGravity: 1b, Marker: 1b}
+execute unless entity @e[type=armor_stand,tag=sb.itemholder] run summon armor_stand ~ 500 ~ {Tags: ["sb.itemholder"], HandItems: [{id: "minecraft:stone", count: 1b}, {}], Invisible: 1b, Invulnerable: 1b, NoGravity: 1b, Marker: 1b}
 
 # fill pages with new data
 scoreboard players set #maxPerPage sb.tmp 7
