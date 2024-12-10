@@ -231,6 +231,7 @@ scoreboard objectives add sb.broken.chiseled_nether_bricks broken:chiseled_nethe
 scoreboard objectives add sb.broken.chiseled_polished_blackstone broken:chiseled_polished_blackstone
 scoreboard objectives add sb.broken.chiseled_quartz_block broken:chiseled_quartz_block
 scoreboard objectives add sb.broken.chiseled_red_sandstone broken:chiseled_red_sandstone
+scoreboard objectives add sb.broken.chiseled_resin_bricks broken:chiseled_resin_bricks
 scoreboard objectives add sb.broken.chiseled_sandstone broken:chiseled_sandstone
 scoreboard objectives add sb.broken.chiseled_stone_bricks broken:chiseled_stone_bricks
 scoreboard objectives add sb.broken.chiseled_tuff broken:chiseled_tuff
@@ -241,6 +242,7 @@ scoreboard objectives add sb.broken.chorus_plant broken:chorus_plant
 scoreboard objectives add sb.broken.clay broken:clay
 scoreboard objectives add sb.broken.clay_ball broken:clay_ball
 scoreboard objectives add sb.broken.clock broken:clock
+scoreboard objectives add sb.broken.closed_eyeblossom broken:closed_eyeblossom
 scoreboard objectives add sb.broken.coal broken:coal
 scoreboard objectives add sb.broken.coal_block broken:coal_block
 scoreboard objectives add sb.broken.coal_ore broken:coal_ore
@@ -842,6 +844,7 @@ scoreboard objectives add sb.broken.ocelot_spawn_egg broken:ocelot_spawn_egg
 scoreboard objectives add sb.broken.ochre_froglight broken:ochre_froglight
 scoreboard objectives add sb.broken.ominous_bottle broken:ominous_bottle
 scoreboard objectives add sb.broken.ominous_trial_key broken:ominous_trial_key
+scoreboard objectives add sb.broken.open_eyeblossom broken:open_eyeblossom
 scoreboard objectives add sb.broken.orange_banner broken:orange_banner
 scoreboard objectives add sb.broken.orange_bed broken:orange_bed
 scoreboard objectives add sb.broken.orange_bundle broken:orange_bundle
@@ -1053,6 +1056,13 @@ scoreboard objectives add sb.broken.redstone_torch broken:redstone_torch
 scoreboard objectives add sb.broken.reinforced_deepslate broken:reinforced_deepslate
 scoreboard objectives add sb.broken.repeater broken:repeater
 scoreboard objectives add sb.broken.repeating_command_block broken:repeating_command_block
+scoreboard objectives add sb.broken.resin_block broken:resin_block
+scoreboard objectives add sb.broken.resin_brick broken:resin_brick
+scoreboard objectives add sb.broken.resin_brick_slab broken:resin_brick_slab
+scoreboard objectives add sb.broken.resin_brick_stairs broken:resin_brick_stairs
+scoreboard objectives add sb.broken.resin_brick_wall broken:resin_brick_wall
+scoreboard objectives add sb.broken.resin_bricks broken:resin_bricks
+scoreboard objectives add sb.broken.resin_clump broken:resin_clump
 scoreboard objectives add sb.broken.respawn_anchor broken:respawn_anchor
 scoreboard objectives add sb.broken.rib_armor_trim_smithing_template broken:rib_armor_trim_smithing_template
 scoreboard objectives add sb.broken.rooted_dirt broken:rooted_dirt
@@ -1606,6 +1616,7 @@ scoreboard objectives add sb.crafted.chiseled_nether_bricks crafted:chiseled_net
 scoreboard objectives add sb.crafted.chiseled_polished_blackstone crafted:chiseled_polished_blackstone
 scoreboard objectives add sb.crafted.chiseled_quartz_block crafted:chiseled_quartz_block
 scoreboard objectives add sb.crafted.chiseled_red_sandstone crafted:chiseled_red_sandstone
+scoreboard objectives add sb.crafted.chiseled_resin_bricks crafted:chiseled_resin_bricks
 scoreboard objectives add sb.crafted.chiseled_sandstone crafted:chiseled_sandstone
 scoreboard objectives add sb.crafted.chiseled_stone_bricks crafted:chiseled_stone_bricks
 scoreboard objectives add sb.crafted.chiseled_tuff crafted:chiseled_tuff
@@ -1616,6 +1627,7 @@ scoreboard objectives add sb.crafted.chorus_plant crafted:chorus_plant
 scoreboard objectives add sb.crafted.clay crafted:clay
 scoreboard objectives add sb.crafted.clay_ball crafted:clay_ball
 scoreboard objectives add sb.crafted.clock crafted:clock
+scoreboard objectives add sb.crafted.closed_eyeblossom crafted:closed_eyeblossom
 scoreboard objectives add sb.crafted.coal crafted:coal
 scoreboard objectives add sb.crafted.coal_block crafted:coal_block
 scoreboard objectives add sb.crafted.coal_ore crafted:coal_ore
@@ -2217,6 +2229,7 @@ scoreboard objectives add sb.crafted.ocelot_spawn_egg crafted:ocelot_spawn_egg
 scoreboard objectives add sb.crafted.ochre_froglight crafted:ochre_froglight
 scoreboard objectives add sb.crafted.ominous_bottle crafted:ominous_bottle
 scoreboard objectives add sb.crafted.ominous_trial_key crafted:ominous_trial_key
+scoreboard objectives add sb.crafted.open_eyeblossom crafted:open_eyeblossom
 scoreboard objectives add sb.crafted.orange_banner crafted:orange_banner
 scoreboard objectives add sb.crafted.orange_bed crafted:orange_bed
 scoreboard objectives add sb.crafted.orange_bundle crafted:orange_bundle
@@ -2428,6 +2441,13 @@ scoreboard objectives add sb.crafted.redstone_torch crafted:redstone_torch
 scoreboard objectives add sb.crafted.reinforced_deepslate crafted:reinforced_deepslate
 scoreboard objectives add sb.crafted.repeater crafted:repeater
 scoreboard objectives add sb.crafted.repeating_command_block crafted:repeating_command_block
+scoreboard objectives add sb.crafted.resin_block crafted:resin_block
+scoreboard objectives add sb.crafted.resin_brick crafted:resin_brick
+scoreboard objectives add sb.crafted.resin_brick_slab crafted:resin_brick_slab
+scoreboard objectives add sb.crafted.resin_brick_stairs crafted:resin_brick_stairs
+scoreboard objectives add sb.crafted.resin_brick_wall crafted:resin_brick_wall
+scoreboard objectives add sb.crafted.resin_bricks crafted:resin_bricks
+scoreboard objectives add sb.crafted.resin_clump crafted:resin_clump
 scoreboard objectives add sb.crafted.respawn_anchor crafted:respawn_anchor
 scoreboard objectives add sb.crafted.rib_armor_trim_smithing_template crafted:rib_armor_trim_smithing_template
 scoreboard objectives add sb.crafted.rooted_dirt crafted:rooted_dirt
@@ -3056,6 +3076,7 @@ scoreboard objectives add sb.dropped.chiseled_nether_bricks dropped:chiseled_net
 scoreboard objectives add sb.dropped.chiseled_polished_blackstone dropped:chiseled_polished_blackstone
 scoreboard objectives add sb.dropped.chiseled_quartz_block dropped:chiseled_quartz_block
 scoreboard objectives add sb.dropped.chiseled_red_sandstone dropped:chiseled_red_sandstone
+scoreboard objectives add sb.dropped.chiseled_resin_bricks dropped:chiseled_resin_bricks
 scoreboard objectives add sb.dropped.chiseled_sandstone dropped:chiseled_sandstone
 scoreboard objectives add sb.dropped.chiseled_stone_bricks dropped:chiseled_stone_bricks
 scoreboard objectives add sb.dropped.chiseled_tuff dropped:chiseled_tuff
@@ -3066,6 +3087,7 @@ scoreboard objectives add sb.dropped.chorus_plant dropped:chorus_plant
 scoreboard objectives add sb.dropped.clay dropped:clay
 scoreboard objectives add sb.dropped.clay_ball dropped:clay_ball
 scoreboard objectives add sb.dropped.clock dropped:clock
+scoreboard objectives add sb.dropped.closed_eyeblossom dropped:closed_eyeblossom
 scoreboard objectives add sb.dropped.coal dropped:coal
 scoreboard objectives add sb.dropped.coal_block dropped:coal_block
 scoreboard objectives add sb.dropped.coal_ore dropped:coal_ore
@@ -3667,6 +3689,7 @@ scoreboard objectives add sb.dropped.ocelot_spawn_egg dropped:ocelot_spawn_egg
 scoreboard objectives add sb.dropped.ochre_froglight dropped:ochre_froglight
 scoreboard objectives add sb.dropped.ominous_bottle dropped:ominous_bottle
 scoreboard objectives add sb.dropped.ominous_trial_key dropped:ominous_trial_key
+scoreboard objectives add sb.dropped.open_eyeblossom dropped:open_eyeblossom
 scoreboard objectives add sb.dropped.orange_banner dropped:orange_banner
 scoreboard objectives add sb.dropped.orange_bed dropped:orange_bed
 scoreboard objectives add sb.dropped.orange_bundle dropped:orange_bundle
@@ -3878,6 +3901,13 @@ scoreboard objectives add sb.dropped.redstone_torch dropped:redstone_torch
 scoreboard objectives add sb.dropped.reinforced_deepslate dropped:reinforced_deepslate
 scoreboard objectives add sb.dropped.repeater dropped:repeater
 scoreboard objectives add sb.dropped.repeating_command_block dropped:repeating_command_block
+scoreboard objectives add sb.dropped.resin_block dropped:resin_block
+scoreboard objectives add sb.dropped.resin_brick dropped:resin_brick
+scoreboard objectives add sb.dropped.resin_brick_slab dropped:resin_brick_slab
+scoreboard objectives add sb.dropped.resin_brick_stairs dropped:resin_brick_stairs
+scoreboard objectives add sb.dropped.resin_brick_wall dropped:resin_brick_wall
+scoreboard objectives add sb.dropped.resin_bricks dropped:resin_bricks
+scoreboard objectives add sb.dropped.resin_clump dropped:resin_clump
 scoreboard objectives add sb.dropped.respawn_anchor dropped:respawn_anchor
 scoreboard objectives add sb.dropped.rib_armor_trim_smithing_template dropped:rib_armor_trim_smithing_template
 scoreboard objectives add sb.dropped.rooted_dirt dropped:rooted_dirt
@@ -4231,7 +4261,6 @@ scoreboard objectives add sb.killed.cod killed:cod
 scoreboard objectives add sb.killed.command_block_minecart killed:command_block_minecart
 scoreboard objectives add sb.killed.cow killed:cow
 scoreboard objectives add sb.killed.creaking killed:creaking
-scoreboard objectives add sb.killed.creaking_transient killed:creaking_transient
 scoreboard objectives add sb.killed.creeper killed:creeper
 scoreboard objectives add sb.killed.dark_oak_boat killed:dark_oak_boat
 scoreboard objectives add sb.killed.dark_oak_chest_boat killed:dark_oak_chest_boat
@@ -4381,7 +4410,6 @@ scoreboard objectives add sb.killed_by.cod killed_by:cod
 scoreboard objectives add sb.killed_by.command_block_minecart killed_by:command_block_minecart
 scoreboard objectives add sb.killed_by.cow killed_by:cow
 scoreboard objectives add sb.killed_by.creaking killed_by:creaking
-scoreboard objectives add sb.killed_by.creaking_transient killed_by:creaking_transient
 scoreboard objectives add sb.killed_by.creeper killed_by:creeper
 scoreboard objectives add sb.killed_by.dark_oak_boat killed_by:dark_oak_boat
 scoreboard objectives add sb.killed_by.dark_oak_chest_boat killed_by:dark_oak_chest_boat
@@ -4691,6 +4719,7 @@ scoreboard objectives add sb.mined.chiseled_nether_bricks mined:chiseled_nether_
 scoreboard objectives add sb.mined.chiseled_polished_blackstone mined:chiseled_polished_blackstone
 scoreboard objectives add sb.mined.chiseled_quartz_block mined:chiseled_quartz_block
 scoreboard objectives add sb.mined.chiseled_red_sandstone mined:chiseled_red_sandstone
+scoreboard objectives add sb.mined.chiseled_resin_bricks mined:chiseled_resin_bricks
 scoreboard objectives add sb.mined.chiseled_sandstone mined:chiseled_sandstone
 scoreboard objectives add sb.mined.chiseled_stone_bricks mined:chiseled_stone_bricks
 scoreboard objectives add sb.mined.chiseled_tuff mined:chiseled_tuff
@@ -4698,6 +4727,7 @@ scoreboard objectives add sb.mined.chiseled_tuff_bricks mined:chiseled_tuff_bric
 scoreboard objectives add sb.mined.chorus_flower mined:chorus_flower
 scoreboard objectives add sb.mined.chorus_plant mined:chorus_plant
 scoreboard objectives add sb.mined.clay mined:clay
+scoreboard objectives add sb.mined.closed_eyeblossom mined:closed_eyeblossom
 scoreboard objectives add sb.mined.coal_block mined:coal_block
 scoreboard objectives add sb.mined.coal_ore mined:coal_ore
 scoreboard objectives add sb.mined.coarse_dirt mined:coarse_dirt
@@ -5123,6 +5153,7 @@ scoreboard objectives add sb.mined.oak_wood mined:oak_wood
 scoreboard objectives add sb.mined.observer mined:observer
 scoreboard objectives add sb.mined.obsidian mined:obsidian
 scoreboard objectives add sb.mined.ochre_froglight mined:ochre_froglight
+scoreboard objectives add sb.mined.open_eyeblossom mined:open_eyeblossom
 scoreboard objectives add sb.mined.orange_banner mined:orange_banner
 scoreboard objectives add sb.mined.orange_bed mined:orange_bed
 scoreboard objectives add sb.mined.orange_candle mined:orange_candle
@@ -5239,6 +5270,7 @@ scoreboard objectives add sb.mined.potted_blue_orchid mined:potted_blue_orchid
 scoreboard objectives add sb.mined.potted_brown_mushroom mined:potted_brown_mushroom
 scoreboard objectives add sb.mined.potted_cactus mined:potted_cactus
 scoreboard objectives add sb.mined.potted_cherry_sapling mined:potted_cherry_sapling
+scoreboard objectives add sb.mined.potted_closed_eyeblossom mined:potted_closed_eyeblossom
 scoreboard objectives add sb.mined.potted_cornflower mined:potted_cornflower
 scoreboard objectives add sb.mined.potted_crimson_fungus mined:potted_crimson_fungus
 scoreboard objectives add sb.mined.potted_crimson_roots mined:potted_crimson_roots
@@ -5251,6 +5283,7 @@ scoreboard objectives add sb.mined.potted_jungle_sapling mined:potted_jungle_sap
 scoreboard objectives add sb.mined.potted_lily_of_the_valley mined:potted_lily_of_the_valley
 scoreboard objectives add sb.mined.potted_mangrove_propagule mined:potted_mangrove_propagule
 scoreboard objectives add sb.mined.potted_oak_sapling mined:potted_oak_sapling
+scoreboard objectives add sb.mined.potted_open_eyeblossom mined:potted_open_eyeblossom
 scoreboard objectives add sb.mined.potted_orange_tulip mined:potted_orange_tulip
 scoreboard objectives add sb.mined.potted_oxeye_daisy mined:potted_oxeye_daisy
 scoreboard objectives add sb.mined.potted_pale_oak_sapling mined:potted_pale_oak_sapling
@@ -5338,6 +5371,12 @@ scoreboard objectives add sb.mined.redstone_wire mined:redstone_wire
 scoreboard objectives add sb.mined.reinforced_deepslate mined:reinforced_deepslate
 scoreboard objectives add sb.mined.repeater mined:repeater
 scoreboard objectives add sb.mined.repeating_command_block mined:repeating_command_block
+scoreboard objectives add sb.mined.resin_block mined:resin_block
+scoreboard objectives add sb.mined.resin_brick_slab mined:resin_brick_slab
+scoreboard objectives add sb.mined.resin_brick_stairs mined:resin_brick_stairs
+scoreboard objectives add sb.mined.resin_brick_wall mined:resin_brick_wall
+scoreboard objectives add sb.mined.resin_bricks mined:resin_bricks
+scoreboard objectives add sb.mined.resin_clump mined:resin_clump
 scoreboard objectives add sb.mined.respawn_anchor mined:respawn_anchor
 scoreboard objectives add sb.mined.rooted_dirt mined:rooted_dirt
 scoreboard objectives add sb.mined.rose_bush mined:rose_bush
@@ -5815,6 +5854,7 @@ scoreboard objectives add sb.picked_up.chiseled_nether_bricks picked_up:chiseled
 scoreboard objectives add sb.picked_up.chiseled_polished_blackstone picked_up:chiseled_polished_blackstone
 scoreboard objectives add sb.picked_up.chiseled_quartz_block picked_up:chiseled_quartz_block
 scoreboard objectives add sb.picked_up.chiseled_red_sandstone picked_up:chiseled_red_sandstone
+scoreboard objectives add sb.picked_up.chiseled_resin_bricks picked_up:chiseled_resin_bricks
 scoreboard objectives add sb.picked_up.chiseled_sandstone picked_up:chiseled_sandstone
 scoreboard objectives add sb.picked_up.chiseled_stone_bricks picked_up:chiseled_stone_bricks
 scoreboard objectives add sb.picked_up.chiseled_tuff picked_up:chiseled_tuff
@@ -5825,6 +5865,7 @@ scoreboard objectives add sb.picked_up.chorus_plant picked_up:chorus_plant
 scoreboard objectives add sb.picked_up.clay picked_up:clay
 scoreboard objectives add sb.picked_up.clay_ball picked_up:clay_ball
 scoreboard objectives add sb.picked_up.clock picked_up:clock
+scoreboard objectives add sb.picked_up.closed_eyeblossom picked_up:closed_eyeblossom
 scoreboard objectives add sb.picked_up.coal picked_up:coal
 scoreboard objectives add sb.picked_up.coal_block picked_up:coal_block
 scoreboard objectives add sb.picked_up.coal_ore picked_up:coal_ore
@@ -6426,6 +6467,7 @@ scoreboard objectives add sb.picked_up.ocelot_spawn_egg picked_up:ocelot_spawn_e
 scoreboard objectives add sb.picked_up.ochre_froglight picked_up:ochre_froglight
 scoreboard objectives add sb.picked_up.ominous_bottle picked_up:ominous_bottle
 scoreboard objectives add sb.picked_up.ominous_trial_key picked_up:ominous_trial_key
+scoreboard objectives add sb.picked_up.open_eyeblossom picked_up:open_eyeblossom
 scoreboard objectives add sb.picked_up.orange_banner picked_up:orange_banner
 scoreboard objectives add sb.picked_up.orange_bed picked_up:orange_bed
 scoreboard objectives add sb.picked_up.orange_bundle picked_up:orange_bundle
@@ -6637,6 +6679,13 @@ scoreboard objectives add sb.picked_up.redstone_torch picked_up:redstone_torch
 scoreboard objectives add sb.picked_up.reinforced_deepslate picked_up:reinforced_deepslate
 scoreboard objectives add sb.picked_up.repeater picked_up:repeater
 scoreboard objectives add sb.picked_up.repeating_command_block picked_up:repeating_command_block
+scoreboard objectives add sb.picked_up.resin_block picked_up:resin_block
+scoreboard objectives add sb.picked_up.resin_brick picked_up:resin_brick
+scoreboard objectives add sb.picked_up.resin_brick_slab picked_up:resin_brick_slab
+scoreboard objectives add sb.picked_up.resin_brick_stairs picked_up:resin_brick_stairs
+scoreboard objectives add sb.picked_up.resin_brick_wall picked_up:resin_brick_wall
+scoreboard objectives add sb.picked_up.resin_bricks picked_up:resin_bricks
+scoreboard objectives add sb.picked_up.resin_clump picked_up:resin_clump
 scoreboard objectives add sb.picked_up.respawn_anchor picked_up:respawn_anchor
 scoreboard objectives add sb.picked_up.rib_armor_trim_smithing_template picked_up:rib_armor_trim_smithing_template
 scoreboard objectives add sb.picked_up.rooted_dirt picked_up:rooted_dirt
@@ -7190,6 +7239,7 @@ scoreboard objectives add sb.used.chiseled_nether_bricks used:chiseled_nether_br
 scoreboard objectives add sb.used.chiseled_polished_blackstone used:chiseled_polished_blackstone
 scoreboard objectives add sb.used.chiseled_quartz_block used:chiseled_quartz_block
 scoreboard objectives add sb.used.chiseled_red_sandstone used:chiseled_red_sandstone
+scoreboard objectives add sb.used.chiseled_resin_bricks used:chiseled_resin_bricks
 scoreboard objectives add sb.used.chiseled_sandstone used:chiseled_sandstone
 scoreboard objectives add sb.used.chiseled_stone_bricks used:chiseled_stone_bricks
 scoreboard objectives add sb.used.chiseled_tuff used:chiseled_tuff
@@ -7200,6 +7250,7 @@ scoreboard objectives add sb.used.chorus_plant used:chorus_plant
 scoreboard objectives add sb.used.clay used:clay
 scoreboard objectives add sb.used.clay_ball used:clay_ball
 scoreboard objectives add sb.used.clock used:clock
+scoreboard objectives add sb.used.closed_eyeblossom used:closed_eyeblossom
 scoreboard objectives add sb.used.coal used:coal
 scoreboard objectives add sb.used.coal_block used:coal_block
 scoreboard objectives add sb.used.coal_ore used:coal_ore
@@ -7801,6 +7852,7 @@ scoreboard objectives add sb.used.ocelot_spawn_egg used:ocelot_spawn_egg
 scoreboard objectives add sb.used.ochre_froglight used:ochre_froglight
 scoreboard objectives add sb.used.ominous_bottle used:ominous_bottle
 scoreboard objectives add sb.used.ominous_trial_key used:ominous_trial_key
+scoreboard objectives add sb.used.open_eyeblossom used:open_eyeblossom
 scoreboard objectives add sb.used.orange_banner used:orange_banner
 scoreboard objectives add sb.used.orange_bed used:orange_bed
 scoreboard objectives add sb.used.orange_bundle used:orange_bundle
@@ -8012,6 +8064,13 @@ scoreboard objectives add sb.used.redstone_torch used:redstone_torch
 scoreboard objectives add sb.used.reinforced_deepslate used:reinforced_deepslate
 scoreboard objectives add sb.used.repeater used:repeater
 scoreboard objectives add sb.used.repeating_command_block used:repeating_command_block
+scoreboard objectives add sb.used.resin_block used:resin_block
+scoreboard objectives add sb.used.resin_brick used:resin_brick
+scoreboard objectives add sb.used.resin_brick_slab used:resin_brick_slab
+scoreboard objectives add sb.used.resin_brick_stairs used:resin_brick_stairs
+scoreboard objectives add sb.used.resin_brick_wall used:resin_brick_wall
+scoreboard objectives add sb.used.resin_bricks used:resin_bricks
+scoreboard objectives add sb.used.resin_clump used:resin_clump
 scoreboard objectives add sb.used.respawn_anchor used:respawn_anchor
 scoreboard objectives add sb.used.rib_armor_trim_smithing_template used:rib_armor_trim_smithing_template
 scoreboard objectives add sb.used.rooted_dirt used:rooted_dirt
