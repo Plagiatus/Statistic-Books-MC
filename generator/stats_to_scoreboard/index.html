@@ -42,11 +42,20 @@
     <div id="wrapper">
     </div>
     <button class="m-1 btn btn-success" id="more">more stats</button>
-    <label>Create objective in function
-        <input type="checkbox" name="createScoreboards" id="createScoreboards">
-    </label>
-    <br>
+    <div class="d-flex flex-column">
+        <label title="Setting scores of UUIDs directly seems to cause issues">Use Names instead of UUIDs
+            <input type="checkbox" name="useNames" id="useNames" checked="true">
+        </label>
+        <span class="text-body-secondary fw-lighter">There seem to be issues with setting the scoreboard to a UUID directly instead of the name, hence this option is enabled by default. It will take longer to generate the first time you do this.</span>
+    </div>
+    <div class="d-flex flex-column">
+        <label title="asdf">Create objective in function
+            <input type="checkbox" name="createScoreboards" id="createScoreboards">
+        </label>
+        <span class="text-body-secondary fw-lighter">Creates the objective inside the function. Useful when you don't want to create the objective manually.</span>
+    </div>
     <button class="m-1 btn btn-secondary" id="function">create function</button>
     <button class="m-1 btn btn-primary" id="datapack">create datapack</button>
+    <output id="output"></output>
 </body>
 </html>

@@ -1,5 +1,5 @@
 const wrapperElement = document.getElementById("wrapper");
-
+const output = document.getElementById("output");
 
 createNewInputFieldset();
 function createNewInputFieldset() {
@@ -41,6 +41,7 @@ document.getElementById("datapack").addEventListener("click", createDatapack);
 
 async function createFunction() {
     let fileData = await getFunctionText();
+    output.innerText = "";
     if (!fileData) return;
     let file = new File([fileData], "sync_scores.mcfunction", { type: "text/plain;charset=utf-8" });
     saveAs(file);
@@ -48,6 +49,7 @@ async function createFunction() {
 
 async function createDatapack() {
     let functionData = await getFunctionText();
+    output.innerText = "";
     if (!functionData) return;
     const zip = new JSZip();
     const namespace = "sb";
@@ -59,10 +61,13 @@ async function createDatapack() {
 }
 
 async function getFunctionText() {
+    output.innerText = "Loading stats...";
     let loadedStats = await loadStats();
     if (!loadedStats) return;
     let functionData = "";
     let createScoreboards = !!document.getElementById("createScoreboards").checked;
+    let useNames = !!document.getElementById("useNames").checked;
+    if(useNames) await loadNames(loadedStats);
     for (let form of document.forms) {
         let fieldset = form.querySelector("fieldset");
         fieldset.classList.replace("alert-warning", "alert-light");
@@ -99,6 +104,7 @@ async function getFunctionText() {
 function showError(parent, error) {
     parent.querySelector("span").innerText = error;
     parent.classList.replace("alert-light", "alert-warning");
+    output.innerText = "";
 }
 
 async function loadStats() {
@@ -118,6 +124,23 @@ async function loadStats() {
     }
 
     return loadedStats;
+}
+
+const nameStorage = new Map();
+async function loadNames(stats){
+    output.innerText = "Loading names...";
+    const newStats = {};
+    for(let uuid in stats){
+        if(!nameStorage.has(uuid)){
+            const data = await (await fetch(`https://mc-api.io/profile/${uuid}`)).json();
+            nameStorage.set(uuid, data.name);
+        }
+        newStats[nameStorage.get(uuid)] = stats[uuid];
+        delete stats[uuid];
+    }
+    for(let name in newStats){
+        stats[name] = newStats[name];
+    }
 }
 
 /*
