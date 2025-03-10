@@ -17,6 +17,7 @@ function createNewInputFieldset() {
     labelOutput.appendChild(inputOutput);
     inputOutput.classList.add("form-control");
     inputOutput.name = "stat";
+    inputOutput.setAttribute("list", "objectives");
 
     let labelObjective = document.createElement("label");
     labelObjective.innerText = "objective ";
