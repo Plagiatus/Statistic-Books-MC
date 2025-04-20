@@ -48,7 +48,7 @@ async function load() {
 		}
 		for (let element of elementsToAdd) {
 			allStats.push(`minecraft:${type}.minecraft:${element}`);
-			allStats.push(`${type}.${element}`);
+			// allStats.push(`${type}.${element}`);
 		}
 	}
     dataList.append(...allStats.map((v) => {
