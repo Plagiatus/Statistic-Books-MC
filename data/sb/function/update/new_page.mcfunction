@@ -2,7 +2,6 @@
 # data modify storage sb:tmp book.tmp set value '"}'
 # function sb:update/combine with storage sb:tmp book
 
-item modify entity @e[tag=sb.itemholder,limit=1] weapon.mainhand sb:page_to_lore
-data modify storage sb:tmp book.pages append from entity @e[tag=sb.itemholder,limit=1] HandItems[0].components."minecraft:lore"[]
-data merge storage sb:tmp {book:{page:'',pageArray:[]}}
+data modify storage sb:tmp book.pages append from storage sb:tmp book.page
+data merge storage sb:tmp {book:{page:[""]}}
 scoreboard players set #i sb.tmp 0
