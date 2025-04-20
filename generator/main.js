@@ -1,5 +1,6 @@
 //generates the sb:setup_objectives file based on the latest set of available objectives
-const baseURL = "https://raw.githubusercontent.com/Ersatz77/mcdata/master/processed/reports/registries/$FOLDER/data.values.txt";
+// const baseURL = "https://raw.githubusercontent.com/Ersatz77/mcdata/master/processed/reports/registries/$FOLDER/data.values.txt";
+const baseURL = "https://raw.githubusercontent.com/Ersatz77/mcdata/refs/tags/1.21.5/processed/reports/registries/$FOLDER/data.values.txt";
 
 const customFolder = baseURL.replace("$FOLDER", "custom_stat");
 const statTypesFolder = baseURL.replace("$FOLDER", "stat_type");

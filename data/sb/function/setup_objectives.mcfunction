@@ -126,6 +126,7 @@ scoreboard objectives add sb.broken.blue_carpet broken:blue_carpet
 scoreboard objectives add sb.broken.blue_concrete broken:blue_concrete
 scoreboard objectives add sb.broken.blue_concrete_powder broken:blue_concrete_powder
 scoreboard objectives add sb.broken.blue_dye broken:blue_dye
+scoreboard objectives add sb.broken.blue_egg broken:blue_egg
 scoreboard objectives add sb.broken.blue_glazed_terracotta broken:blue_glazed_terracotta
 scoreboard objectives add sb.broken.blue_ice broken:blue_ice
 scoreboard objectives add sb.broken.blue_orchid broken:blue_orchid
@@ -165,6 +166,7 @@ scoreboard objectives add sb.broken.brown_carpet broken:brown_carpet
 scoreboard objectives add sb.broken.brown_concrete broken:brown_concrete
 scoreboard objectives add sb.broken.brown_concrete_powder broken:brown_concrete_powder
 scoreboard objectives add sb.broken.brown_dye broken:brown_dye
+scoreboard objectives add sb.broken.brown_egg broken:brown_egg
 scoreboard objectives add sb.broken.brown_glazed_terracotta broken:brown_glazed_terracotta
 scoreboard objectives add sb.broken.brown_mushroom broken:brown_mushroom
 scoreboard objectives add sb.broken.brown_mushroom_block broken:brown_mushroom_block
@@ -181,7 +183,9 @@ scoreboard objectives add sb.broken.bucket broken:bucket
 scoreboard objectives add sb.broken.budding_amethyst broken:budding_amethyst
 scoreboard objectives add sb.broken.bundle broken:bundle
 scoreboard objectives add sb.broken.burn_pottery_sherd broken:burn_pottery_sherd
+scoreboard objectives add sb.broken.bush broken:bush
 scoreboard objectives add sb.broken.cactus broken:cactus
+scoreboard objectives add sb.broken.cactus_flower broken:cactus_flower
 scoreboard objectives add sb.broken.cake broken:cake
 scoreboard objectives add sb.broken.calcite broken:calcite
 scoreboard objectives add sb.broken.calibrated_sculk_sensor broken:calibrated_sculk_sensor
@@ -474,6 +478,7 @@ scoreboard objectives add sb.broken.fire_charge broken:fire_charge
 scoreboard objectives add sb.broken.fire_coral broken:fire_coral
 scoreboard objectives add sb.broken.fire_coral_block broken:fire_coral_block
 scoreboard objectives add sb.broken.fire_coral_fan broken:fire_coral_fan
+scoreboard objectives add sb.broken.firefly_bush broken:firefly_bush
 scoreboard objectives add sb.broken.firework_rocket broken:firework_rocket
 scoreboard objectives add sb.broken.firework_star broken:firework_star
 scoreboard objectives add sb.broken.fishing_rod broken:fishing_rod
@@ -645,6 +650,7 @@ scoreboard objectives add sb.broken.large_amethyst_bud broken:large_amethyst_bud
 scoreboard objectives add sb.broken.large_fern broken:large_fern
 scoreboard objectives add sb.broken.lava_bucket broken:lava_bucket
 scoreboard objectives add sb.broken.lead broken:lead
+scoreboard objectives add sb.broken.leaf_litter broken:leaf_litter
 scoreboard objectives add sb.broken.leather broken:leather
 scoreboard objectives add sb.broken.leather_boots broken:leather_boots
 scoreboard objectives add sb.broken.leather_chestplate broken:leather_chestplate
@@ -1094,6 +1100,7 @@ scoreboard objectives add sb.broken.shears broken:shears
 scoreboard objectives add sb.broken.sheep_spawn_egg broken:sheep_spawn_egg
 scoreboard objectives add sb.broken.shelter_pottery_sherd broken:shelter_pottery_sherd
 scoreboard objectives add sb.broken.shield broken:shield
+scoreboard objectives add sb.broken.short_dry_grass broken:short_dry_grass
 scoreboard objectives add sb.broken.short_grass broken:short_grass
 scoreboard objectives add sb.broken.shroomlight broken:shroomlight
 scoreboard objectives add sb.broken.shulker_box broken:shulker_box
@@ -1219,9 +1226,12 @@ scoreboard objectives add sb.broken.suspicious_stew broken:suspicious_stew
 scoreboard objectives add sb.broken.sweet_berries broken:sweet_berries
 scoreboard objectives add sb.broken.tadpole_bucket broken:tadpole_bucket
 scoreboard objectives add sb.broken.tadpole_spawn_egg broken:tadpole_spawn_egg
+scoreboard objectives add sb.broken.tall_dry_grass broken:tall_dry_grass
 scoreboard objectives add sb.broken.tall_grass broken:tall_grass
 scoreboard objectives add sb.broken.target broken:target
 scoreboard objectives add sb.broken.terracotta broken:terracotta
+scoreboard objectives add sb.broken.test_block broken:test_block
+scoreboard objectives add sb.broken.test_instance_block broken:test_instance_block
 scoreboard objectives add sb.broken.tide_armor_trim_smithing_template broken:tide_armor_trim_smithing_template
 scoreboard objectives add sb.broken.tinted_glass broken:tinted_glass
 scoreboard objectives add sb.broken.tipped_arrow broken:tipped_arrow
@@ -1351,6 +1361,7 @@ scoreboard objectives add sb.broken.white_terracotta broken:white_terracotta
 scoreboard objectives add sb.broken.white_tulip broken:white_tulip
 scoreboard objectives add sb.broken.white_wool broken:white_wool
 scoreboard objectives add sb.broken.wild_armor_trim_smithing_template broken:wild_armor_trim_smithing_template
+scoreboard objectives add sb.broken.wildflowers broken:wildflowers
 scoreboard objectives add sb.broken.wind_charge broken:wind_charge
 scoreboard objectives add sb.broken.witch_spawn_egg broken:witch_spawn_egg
 scoreboard objectives add sb.broken.wither_rose broken:wither_rose
@@ -1511,6 +1522,7 @@ scoreboard objectives add sb.crafted.blue_carpet crafted:blue_carpet
 scoreboard objectives add sb.crafted.blue_concrete crafted:blue_concrete
 scoreboard objectives add sb.crafted.blue_concrete_powder crafted:blue_concrete_powder
 scoreboard objectives add sb.crafted.blue_dye crafted:blue_dye
+scoreboard objectives add sb.crafted.blue_egg crafted:blue_egg
 scoreboard objectives add sb.crafted.blue_glazed_terracotta crafted:blue_glazed_terracotta
 scoreboard objectives add sb.crafted.blue_ice crafted:blue_ice
 scoreboard objectives add sb.crafted.blue_orchid crafted:blue_orchid
@@ -1550,6 +1562,7 @@ scoreboard objectives add sb.crafted.brown_carpet crafted:brown_carpet
 scoreboard objectives add sb.crafted.brown_concrete crafted:brown_concrete
 scoreboard objectives add sb.crafted.brown_concrete_powder crafted:brown_concrete_powder
 scoreboard objectives add sb.crafted.brown_dye crafted:brown_dye
+scoreboard objectives add sb.crafted.brown_egg crafted:brown_egg
 scoreboard objectives add sb.crafted.brown_glazed_terracotta crafted:brown_glazed_terracotta
 scoreboard objectives add sb.crafted.brown_mushroom crafted:brown_mushroom
 scoreboard objectives add sb.crafted.brown_mushroom_block crafted:brown_mushroom_block
@@ -1566,7 +1579,9 @@ scoreboard objectives add sb.crafted.bucket crafted:bucket
 scoreboard objectives add sb.crafted.budding_amethyst crafted:budding_amethyst
 scoreboard objectives add sb.crafted.bundle crafted:bundle
 scoreboard objectives add sb.crafted.burn_pottery_sherd crafted:burn_pottery_sherd
+scoreboard objectives add sb.crafted.bush crafted:bush
 scoreboard objectives add sb.crafted.cactus crafted:cactus
+scoreboard objectives add sb.crafted.cactus_flower crafted:cactus_flower
 scoreboard objectives add sb.crafted.cake crafted:cake
 scoreboard objectives add sb.crafted.calcite crafted:calcite
 scoreboard objectives add sb.crafted.calibrated_sculk_sensor crafted:calibrated_sculk_sensor
@@ -1859,6 +1874,7 @@ scoreboard objectives add sb.crafted.fire_charge crafted:fire_charge
 scoreboard objectives add sb.crafted.fire_coral crafted:fire_coral
 scoreboard objectives add sb.crafted.fire_coral_block crafted:fire_coral_block
 scoreboard objectives add sb.crafted.fire_coral_fan crafted:fire_coral_fan
+scoreboard objectives add sb.crafted.firefly_bush crafted:firefly_bush
 scoreboard objectives add sb.crafted.firework_rocket crafted:firework_rocket
 scoreboard objectives add sb.crafted.firework_star crafted:firework_star
 scoreboard objectives add sb.crafted.fishing_rod crafted:fishing_rod
@@ -2030,6 +2046,7 @@ scoreboard objectives add sb.crafted.large_amethyst_bud crafted:large_amethyst_b
 scoreboard objectives add sb.crafted.large_fern crafted:large_fern
 scoreboard objectives add sb.crafted.lava_bucket crafted:lava_bucket
 scoreboard objectives add sb.crafted.lead crafted:lead
+scoreboard objectives add sb.crafted.leaf_litter crafted:leaf_litter
 scoreboard objectives add sb.crafted.leather crafted:leather
 scoreboard objectives add sb.crafted.leather_boots crafted:leather_boots
 scoreboard objectives add sb.crafted.leather_chestplate crafted:leather_chestplate
@@ -2479,6 +2496,7 @@ scoreboard objectives add sb.crafted.shears crafted:shears
 scoreboard objectives add sb.crafted.sheep_spawn_egg crafted:sheep_spawn_egg
 scoreboard objectives add sb.crafted.shelter_pottery_sherd crafted:shelter_pottery_sherd
 scoreboard objectives add sb.crafted.shield crafted:shield
+scoreboard objectives add sb.crafted.short_dry_grass crafted:short_dry_grass
 scoreboard objectives add sb.crafted.short_grass crafted:short_grass
 scoreboard objectives add sb.crafted.shroomlight crafted:shroomlight
 scoreboard objectives add sb.crafted.shulker_box crafted:shulker_box
@@ -2604,9 +2622,12 @@ scoreboard objectives add sb.crafted.suspicious_stew crafted:suspicious_stew
 scoreboard objectives add sb.crafted.sweet_berries crafted:sweet_berries
 scoreboard objectives add sb.crafted.tadpole_bucket crafted:tadpole_bucket
 scoreboard objectives add sb.crafted.tadpole_spawn_egg crafted:tadpole_spawn_egg
+scoreboard objectives add sb.crafted.tall_dry_grass crafted:tall_dry_grass
 scoreboard objectives add sb.crafted.tall_grass crafted:tall_grass
 scoreboard objectives add sb.crafted.target crafted:target
 scoreboard objectives add sb.crafted.terracotta crafted:terracotta
+scoreboard objectives add sb.crafted.test_block crafted:test_block
+scoreboard objectives add sb.crafted.test_instance_block crafted:test_instance_block
 scoreboard objectives add sb.crafted.tide_armor_trim_smithing_template crafted:tide_armor_trim_smithing_template
 scoreboard objectives add sb.crafted.tinted_glass crafted:tinted_glass
 scoreboard objectives add sb.crafted.tipped_arrow crafted:tipped_arrow
@@ -2736,6 +2757,7 @@ scoreboard objectives add sb.crafted.white_terracotta crafted:white_terracotta
 scoreboard objectives add sb.crafted.white_tulip crafted:white_tulip
 scoreboard objectives add sb.crafted.white_wool crafted:white_wool
 scoreboard objectives add sb.crafted.wild_armor_trim_smithing_template crafted:wild_armor_trim_smithing_template
+scoreboard objectives add sb.crafted.wildflowers crafted:wildflowers
 scoreboard objectives add sb.crafted.wind_charge crafted:wind_charge
 scoreboard objectives add sb.crafted.witch_spawn_egg crafted:witch_spawn_egg
 scoreboard objectives add sb.crafted.wither_rose crafted:wither_rose
@@ -2971,6 +2993,7 @@ scoreboard objectives add sb.dropped.blue_carpet dropped:blue_carpet
 scoreboard objectives add sb.dropped.blue_concrete dropped:blue_concrete
 scoreboard objectives add sb.dropped.blue_concrete_powder dropped:blue_concrete_powder
 scoreboard objectives add sb.dropped.blue_dye dropped:blue_dye
+scoreboard objectives add sb.dropped.blue_egg dropped:blue_egg
 scoreboard objectives add sb.dropped.blue_glazed_terracotta dropped:blue_glazed_terracotta
 scoreboard objectives add sb.dropped.blue_ice dropped:blue_ice
 scoreboard objectives add sb.dropped.blue_orchid dropped:blue_orchid
@@ -3010,6 +3033,7 @@ scoreboard objectives add sb.dropped.brown_carpet dropped:brown_carpet
 scoreboard objectives add sb.dropped.brown_concrete dropped:brown_concrete
 scoreboard objectives add sb.dropped.brown_concrete_powder dropped:brown_concrete_powder
 scoreboard objectives add sb.dropped.brown_dye dropped:brown_dye
+scoreboard objectives add sb.dropped.brown_egg dropped:brown_egg
 scoreboard objectives add sb.dropped.brown_glazed_terracotta dropped:brown_glazed_terracotta
 scoreboard objectives add sb.dropped.brown_mushroom dropped:brown_mushroom
 scoreboard objectives add sb.dropped.brown_mushroom_block dropped:brown_mushroom_block
@@ -3026,7 +3050,9 @@ scoreboard objectives add sb.dropped.bucket dropped:bucket
 scoreboard objectives add sb.dropped.budding_amethyst dropped:budding_amethyst
 scoreboard objectives add sb.dropped.bundle dropped:bundle
 scoreboard objectives add sb.dropped.burn_pottery_sherd dropped:burn_pottery_sherd
+scoreboard objectives add sb.dropped.bush dropped:bush
 scoreboard objectives add sb.dropped.cactus dropped:cactus
+scoreboard objectives add sb.dropped.cactus_flower dropped:cactus_flower
 scoreboard objectives add sb.dropped.cake dropped:cake
 scoreboard objectives add sb.dropped.calcite dropped:calcite
 scoreboard objectives add sb.dropped.calibrated_sculk_sensor dropped:calibrated_sculk_sensor
@@ -3319,6 +3345,7 @@ scoreboard objectives add sb.dropped.fire_charge dropped:fire_charge
 scoreboard objectives add sb.dropped.fire_coral dropped:fire_coral
 scoreboard objectives add sb.dropped.fire_coral_block dropped:fire_coral_block
 scoreboard objectives add sb.dropped.fire_coral_fan dropped:fire_coral_fan
+scoreboard objectives add sb.dropped.firefly_bush dropped:firefly_bush
 scoreboard objectives add sb.dropped.firework_rocket dropped:firework_rocket
 scoreboard objectives add sb.dropped.firework_star dropped:firework_star
 scoreboard objectives add sb.dropped.fishing_rod dropped:fishing_rod
@@ -3490,6 +3517,7 @@ scoreboard objectives add sb.dropped.large_amethyst_bud dropped:large_amethyst_b
 scoreboard objectives add sb.dropped.large_fern dropped:large_fern
 scoreboard objectives add sb.dropped.lava_bucket dropped:lava_bucket
 scoreboard objectives add sb.dropped.lead dropped:lead
+scoreboard objectives add sb.dropped.leaf_litter dropped:leaf_litter
 scoreboard objectives add sb.dropped.leather dropped:leather
 scoreboard objectives add sb.dropped.leather_boots dropped:leather_boots
 scoreboard objectives add sb.dropped.leather_chestplate dropped:leather_chestplate
@@ -3939,6 +3967,7 @@ scoreboard objectives add sb.dropped.shears dropped:shears
 scoreboard objectives add sb.dropped.sheep_spawn_egg dropped:sheep_spawn_egg
 scoreboard objectives add sb.dropped.shelter_pottery_sherd dropped:shelter_pottery_sherd
 scoreboard objectives add sb.dropped.shield dropped:shield
+scoreboard objectives add sb.dropped.short_dry_grass dropped:short_dry_grass
 scoreboard objectives add sb.dropped.short_grass dropped:short_grass
 scoreboard objectives add sb.dropped.shroomlight dropped:shroomlight
 scoreboard objectives add sb.dropped.shulker_box dropped:shulker_box
@@ -4064,9 +4093,12 @@ scoreboard objectives add sb.dropped.suspicious_stew dropped:suspicious_stew
 scoreboard objectives add sb.dropped.sweet_berries dropped:sweet_berries
 scoreboard objectives add sb.dropped.tadpole_bucket dropped:tadpole_bucket
 scoreboard objectives add sb.dropped.tadpole_spawn_egg dropped:tadpole_spawn_egg
+scoreboard objectives add sb.dropped.tall_dry_grass dropped:tall_dry_grass
 scoreboard objectives add sb.dropped.tall_grass dropped:tall_grass
 scoreboard objectives add sb.dropped.target dropped:target
 scoreboard objectives add sb.dropped.terracotta dropped:terracotta
+scoreboard objectives add sb.dropped.test_block dropped:test_block
+scoreboard objectives add sb.dropped.test_instance_block dropped:test_instance_block
 scoreboard objectives add sb.dropped.tide_armor_trim_smithing_template dropped:tide_armor_trim_smithing_template
 scoreboard objectives add sb.dropped.tinted_glass dropped:tinted_glass
 scoreboard objectives add sb.dropped.tipped_arrow dropped:tipped_arrow
@@ -4196,6 +4228,7 @@ scoreboard objectives add sb.dropped.white_terracotta dropped:white_terracotta
 scoreboard objectives add sb.dropped.white_tulip dropped:white_tulip
 scoreboard objectives add sb.dropped.white_wool dropped:white_wool
 scoreboard objectives add sb.dropped.wild_armor_trim_smithing_template dropped:wild_armor_trim_smithing_template
+scoreboard objectives add sb.dropped.wildflowers dropped:wildflowers
 scoreboard objectives add sb.dropped.wind_charge dropped:wind_charge
 scoreboard objectives add sb.dropped.witch_spawn_egg dropped:witch_spawn_egg
 scoreboard objectives add sb.dropped.wither_rose dropped:wither_rose
@@ -4307,6 +4340,7 @@ scoreboard objectives add sb.killed.jungle_boat killed:jungle_boat
 scoreboard objectives add sb.killed.jungle_chest_boat killed:jungle_chest_boat
 scoreboard objectives add sb.killed.leash_knot killed:leash_knot
 scoreboard objectives add sb.killed.lightning_bolt killed:lightning_bolt
+scoreboard objectives add sb.killed.lingering_potion killed:lingering_potion
 scoreboard objectives add sb.killed.llama killed:llama
 scoreboard objectives add sb.killed.llama_spit killed:llama_spit
 scoreboard objectives add sb.killed.magma_cube killed:magma_cube
@@ -4332,7 +4366,6 @@ scoreboard objectives add sb.killed.piglin_brute killed:piglin_brute
 scoreboard objectives add sb.killed.pillager killed:pillager
 scoreboard objectives add sb.killed.player killed:player
 scoreboard objectives add sb.killed.polar_bear killed:polar_bear
-scoreboard objectives add sb.killed.potion killed:potion
 scoreboard objectives add sb.killed.pufferfish killed:pufferfish
 scoreboard objectives add sb.killed.rabbit killed:rabbit
 scoreboard objectives add sb.killed.ravager killed:ravager
@@ -4351,6 +4384,7 @@ scoreboard objectives add sb.killed.snowball killed:snowball
 scoreboard objectives add sb.killed.spawner_minecart killed:spawner_minecart
 scoreboard objectives add sb.killed.spectral_arrow killed:spectral_arrow
 scoreboard objectives add sb.killed.spider killed:spider
+scoreboard objectives add sb.killed.splash_potion killed:splash_potion
 scoreboard objectives add sb.killed.spruce_boat killed:spruce_boat
 scoreboard objectives add sb.killed.spruce_chest_boat killed:spruce_chest_boat
 scoreboard objectives add sb.killed.squid killed:squid
@@ -4456,6 +4490,7 @@ scoreboard objectives add sb.killed_by.jungle_boat killed_by:jungle_boat
 scoreboard objectives add sb.killed_by.jungle_chest_boat killed_by:jungle_chest_boat
 scoreboard objectives add sb.killed_by.leash_knot killed_by:leash_knot
 scoreboard objectives add sb.killed_by.lightning_bolt killed_by:lightning_bolt
+scoreboard objectives add sb.killed_by.lingering_potion killed_by:lingering_potion
 scoreboard objectives add sb.killed_by.llama killed_by:llama
 scoreboard objectives add sb.killed_by.llama_spit killed_by:llama_spit
 scoreboard objectives add sb.killed_by.magma_cube killed_by:magma_cube
@@ -4481,7 +4516,6 @@ scoreboard objectives add sb.killed_by.piglin_brute killed_by:piglin_brute
 scoreboard objectives add sb.killed_by.pillager killed_by:pillager
 scoreboard objectives add sb.killed_by.player killed_by:player
 scoreboard objectives add sb.killed_by.polar_bear killed_by:polar_bear
-scoreboard objectives add sb.killed_by.potion killed_by:potion
 scoreboard objectives add sb.killed_by.pufferfish killed_by:pufferfish
 scoreboard objectives add sb.killed_by.rabbit killed_by:rabbit
 scoreboard objectives add sb.killed_by.ravager killed_by:ravager
@@ -4500,6 +4534,7 @@ scoreboard objectives add sb.killed_by.snowball killed_by:snowball
 scoreboard objectives add sb.killed_by.spawner_minecart killed_by:spawner_minecart
 scoreboard objectives add sb.killed_by.spectral_arrow killed_by:spectral_arrow
 scoreboard objectives add sb.killed_by.spider killed_by:spider
+scoreboard objectives add sb.killed_by.splash_potion killed_by:splash_potion
 scoreboard objectives add sb.killed_by.spruce_boat killed_by:spruce_boat
 scoreboard objectives add sb.killed_by.spruce_chest_boat killed_by:spruce_chest_boat
 scoreboard objectives add sb.killed_by.squid killed_by:squid
@@ -4677,7 +4712,9 @@ scoreboard objectives add sb.mined.bubble_coral_block mined:bubble_coral_block
 scoreboard objectives add sb.mined.bubble_coral_fan mined:bubble_coral_fan
 scoreboard objectives add sb.mined.bubble_coral_wall_fan mined:bubble_coral_wall_fan
 scoreboard objectives add sb.mined.budding_amethyst mined:budding_amethyst
+scoreboard objectives add sb.mined.bush mined:bush
 scoreboard objectives add sb.mined.cactus mined:cactus
+scoreboard objectives add sb.mined.cactus_flower mined:cactus_flower
 scoreboard objectives add sb.mined.cake mined:cake
 scoreboard objectives add sb.mined.calcite mined:calcite
 scoreboard objectives add sb.mined.calibrated_sculk_sensor mined:calibrated_sculk_sensor
@@ -4909,6 +4946,7 @@ scoreboard objectives add sb.mined.fire_coral mined:fire_coral
 scoreboard objectives add sb.mined.fire_coral_block mined:fire_coral_block
 scoreboard objectives add sb.mined.fire_coral_fan mined:fire_coral_fan
 scoreboard objectives add sb.mined.fire_coral_wall_fan mined:fire_coral_wall_fan
+scoreboard objectives add sb.mined.firefly_bush mined:firefly_bush
 scoreboard objectives add sb.mined.fletching_table mined:fletching_table
 scoreboard objectives add sb.mined.flower_pot mined:flower_pot
 scoreboard objectives add sb.mined.flowering_azalea mined:flowering_azalea
@@ -5012,6 +5050,7 @@ scoreboard objectives add sb.mined.large_amethyst_bud mined:large_amethyst_bud
 scoreboard objectives add sb.mined.large_fern mined:large_fern
 scoreboard objectives add sb.mined.lava mined:lava
 scoreboard objectives add sb.mined.lava_cauldron mined:lava_cauldron
+scoreboard objectives add sb.mined.leaf_litter mined:leaf_litter
 scoreboard objectives add sb.mined.lectern mined:lectern
 scoreboard objectives add sb.mined.lever mined:lever
 scoreboard objectives add sb.mined.light mined:light
@@ -5394,6 +5433,7 @@ scoreboard objectives add sb.mined.sculk_vein mined:sculk_vein
 scoreboard objectives add sb.mined.sea_lantern mined:sea_lantern
 scoreboard objectives add sb.mined.sea_pickle mined:sea_pickle
 scoreboard objectives add sb.mined.seagrass mined:seagrass
+scoreboard objectives add sb.mined.short_dry_grass mined:short_dry_grass
 scoreboard objectives add sb.mined.short_grass mined:short_grass
 scoreboard objectives add sb.mined.shroomlight mined:shroomlight
 scoreboard objectives add sb.mined.shulker_box mined:shulker_box
@@ -5487,10 +5527,13 @@ scoreboard objectives add sb.mined.sunflower mined:sunflower
 scoreboard objectives add sb.mined.suspicious_gravel mined:suspicious_gravel
 scoreboard objectives add sb.mined.suspicious_sand mined:suspicious_sand
 scoreboard objectives add sb.mined.sweet_berry_bush mined:sweet_berry_bush
+scoreboard objectives add sb.mined.tall_dry_grass mined:tall_dry_grass
 scoreboard objectives add sb.mined.tall_grass mined:tall_grass
 scoreboard objectives add sb.mined.tall_seagrass mined:tall_seagrass
 scoreboard objectives add sb.mined.target mined:target
 scoreboard objectives add sb.mined.terracotta mined:terracotta
+scoreboard objectives add sb.mined.test_block mined:test_block
+scoreboard objectives add sb.mined.test_instance_block mined:test_instance_block
 scoreboard objectives add sb.mined.tinted_glass mined:tinted_glass
 scoreboard objectives add sb.mined.tnt mined:tnt
 scoreboard objectives add sb.mined.torch mined:torch
@@ -5605,6 +5648,7 @@ scoreboard objectives add sb.mined.white_terracotta mined:white_terracotta
 scoreboard objectives add sb.mined.white_tulip mined:white_tulip
 scoreboard objectives add sb.mined.white_wall_banner mined:white_wall_banner
 scoreboard objectives add sb.mined.white_wool mined:white_wool
+scoreboard objectives add sb.mined.wildflowers mined:wildflowers
 scoreboard objectives add sb.mined.wither_rose mined:wither_rose
 scoreboard objectives add sb.mined.wither_skeleton_skull mined:wither_skeleton_skull
 scoreboard objectives add sb.mined.wither_skeleton_wall_skull mined:wither_skeleton_wall_skull
@@ -5749,6 +5793,7 @@ scoreboard objectives add sb.picked_up.blue_carpet picked_up:blue_carpet
 scoreboard objectives add sb.picked_up.blue_concrete picked_up:blue_concrete
 scoreboard objectives add sb.picked_up.blue_concrete_powder picked_up:blue_concrete_powder
 scoreboard objectives add sb.picked_up.blue_dye picked_up:blue_dye
+scoreboard objectives add sb.picked_up.blue_egg picked_up:blue_egg
 scoreboard objectives add sb.picked_up.blue_glazed_terracotta picked_up:blue_glazed_terracotta
 scoreboard objectives add sb.picked_up.blue_ice picked_up:blue_ice
 scoreboard objectives add sb.picked_up.blue_orchid picked_up:blue_orchid
@@ -5788,6 +5833,7 @@ scoreboard objectives add sb.picked_up.brown_carpet picked_up:brown_carpet
 scoreboard objectives add sb.picked_up.brown_concrete picked_up:brown_concrete
 scoreboard objectives add sb.picked_up.brown_concrete_powder picked_up:brown_concrete_powder
 scoreboard objectives add sb.picked_up.brown_dye picked_up:brown_dye
+scoreboard objectives add sb.picked_up.brown_egg picked_up:brown_egg
 scoreboard objectives add sb.picked_up.brown_glazed_terracotta picked_up:brown_glazed_terracotta
 scoreboard objectives add sb.picked_up.brown_mushroom picked_up:brown_mushroom
 scoreboard objectives add sb.picked_up.brown_mushroom_block picked_up:brown_mushroom_block
@@ -5804,7 +5850,9 @@ scoreboard objectives add sb.picked_up.bucket picked_up:bucket
 scoreboard objectives add sb.picked_up.budding_amethyst picked_up:budding_amethyst
 scoreboard objectives add sb.picked_up.bundle picked_up:bundle
 scoreboard objectives add sb.picked_up.burn_pottery_sherd picked_up:burn_pottery_sherd
+scoreboard objectives add sb.picked_up.bush picked_up:bush
 scoreboard objectives add sb.picked_up.cactus picked_up:cactus
+scoreboard objectives add sb.picked_up.cactus_flower picked_up:cactus_flower
 scoreboard objectives add sb.picked_up.cake picked_up:cake
 scoreboard objectives add sb.picked_up.calcite picked_up:calcite
 scoreboard objectives add sb.picked_up.calibrated_sculk_sensor picked_up:calibrated_sculk_sensor
@@ -6097,6 +6145,7 @@ scoreboard objectives add sb.picked_up.fire_charge picked_up:fire_charge
 scoreboard objectives add sb.picked_up.fire_coral picked_up:fire_coral
 scoreboard objectives add sb.picked_up.fire_coral_block picked_up:fire_coral_block
 scoreboard objectives add sb.picked_up.fire_coral_fan picked_up:fire_coral_fan
+scoreboard objectives add sb.picked_up.firefly_bush picked_up:firefly_bush
 scoreboard objectives add sb.picked_up.firework_rocket picked_up:firework_rocket
 scoreboard objectives add sb.picked_up.firework_star picked_up:firework_star
 scoreboard objectives add sb.picked_up.fishing_rod picked_up:fishing_rod
@@ -6268,6 +6317,7 @@ scoreboard objectives add sb.picked_up.large_amethyst_bud picked_up:large_amethy
 scoreboard objectives add sb.picked_up.large_fern picked_up:large_fern
 scoreboard objectives add sb.picked_up.lava_bucket picked_up:lava_bucket
 scoreboard objectives add sb.picked_up.lead picked_up:lead
+scoreboard objectives add sb.picked_up.leaf_litter picked_up:leaf_litter
 scoreboard objectives add sb.picked_up.leather picked_up:leather
 scoreboard objectives add sb.picked_up.leather_boots picked_up:leather_boots
 scoreboard objectives add sb.picked_up.leather_chestplate picked_up:leather_chestplate
@@ -6717,6 +6767,7 @@ scoreboard objectives add sb.picked_up.shears picked_up:shears
 scoreboard objectives add sb.picked_up.sheep_spawn_egg picked_up:sheep_spawn_egg
 scoreboard objectives add sb.picked_up.shelter_pottery_sherd picked_up:shelter_pottery_sherd
 scoreboard objectives add sb.picked_up.shield picked_up:shield
+scoreboard objectives add sb.picked_up.short_dry_grass picked_up:short_dry_grass
 scoreboard objectives add sb.picked_up.short_grass picked_up:short_grass
 scoreboard objectives add sb.picked_up.shroomlight picked_up:shroomlight
 scoreboard objectives add sb.picked_up.shulker_box picked_up:shulker_box
@@ -6842,9 +6893,12 @@ scoreboard objectives add sb.picked_up.suspicious_stew picked_up:suspicious_stew
 scoreboard objectives add sb.picked_up.sweet_berries picked_up:sweet_berries
 scoreboard objectives add sb.picked_up.tadpole_bucket picked_up:tadpole_bucket
 scoreboard objectives add sb.picked_up.tadpole_spawn_egg picked_up:tadpole_spawn_egg
+scoreboard objectives add sb.picked_up.tall_dry_grass picked_up:tall_dry_grass
 scoreboard objectives add sb.picked_up.tall_grass picked_up:tall_grass
 scoreboard objectives add sb.picked_up.target picked_up:target
 scoreboard objectives add sb.picked_up.terracotta picked_up:terracotta
+scoreboard objectives add sb.picked_up.test_block picked_up:test_block
+scoreboard objectives add sb.picked_up.test_instance_block picked_up:test_instance_block
 scoreboard objectives add sb.picked_up.tide_armor_trim_smithing_template picked_up:tide_armor_trim_smithing_template
 scoreboard objectives add sb.picked_up.tinted_glass picked_up:tinted_glass
 scoreboard objectives add sb.picked_up.tipped_arrow picked_up:tipped_arrow
@@ -6974,6 +7028,7 @@ scoreboard objectives add sb.picked_up.white_terracotta picked_up:white_terracot
 scoreboard objectives add sb.picked_up.white_tulip picked_up:white_tulip
 scoreboard objectives add sb.picked_up.white_wool picked_up:white_wool
 scoreboard objectives add sb.picked_up.wild_armor_trim_smithing_template picked_up:wild_armor_trim_smithing_template
+scoreboard objectives add sb.picked_up.wildflowers picked_up:wildflowers
 scoreboard objectives add sb.picked_up.wind_charge picked_up:wind_charge
 scoreboard objectives add sb.picked_up.witch_spawn_egg picked_up:witch_spawn_egg
 scoreboard objectives add sb.picked_up.wither_rose picked_up:wither_rose
@@ -7134,6 +7189,7 @@ scoreboard objectives add sb.used.blue_carpet used:blue_carpet
 scoreboard objectives add sb.used.blue_concrete used:blue_concrete
 scoreboard objectives add sb.used.blue_concrete_powder used:blue_concrete_powder
 scoreboard objectives add sb.used.blue_dye used:blue_dye
+scoreboard objectives add sb.used.blue_egg used:blue_egg
 scoreboard objectives add sb.used.blue_glazed_terracotta used:blue_glazed_terracotta
 scoreboard objectives add sb.used.blue_ice used:blue_ice
 scoreboard objectives add sb.used.blue_orchid used:blue_orchid
@@ -7173,6 +7229,7 @@ scoreboard objectives add sb.used.brown_carpet used:brown_carpet
 scoreboard objectives add sb.used.brown_concrete used:brown_concrete
 scoreboard objectives add sb.used.brown_concrete_powder used:brown_concrete_powder
 scoreboard objectives add sb.used.brown_dye used:brown_dye
+scoreboard objectives add sb.used.brown_egg used:brown_egg
 scoreboard objectives add sb.used.brown_glazed_terracotta used:brown_glazed_terracotta
 scoreboard objectives add sb.used.brown_mushroom used:brown_mushroom
 scoreboard objectives add sb.used.brown_mushroom_block used:brown_mushroom_block
@@ -7189,7 +7246,9 @@ scoreboard objectives add sb.used.bucket used:bucket
 scoreboard objectives add sb.used.budding_amethyst used:budding_amethyst
 scoreboard objectives add sb.used.bundle used:bundle
 scoreboard objectives add sb.used.burn_pottery_sherd used:burn_pottery_sherd
+scoreboard objectives add sb.used.bush used:bush
 scoreboard objectives add sb.used.cactus used:cactus
+scoreboard objectives add sb.used.cactus_flower used:cactus_flower
 scoreboard objectives add sb.used.cake used:cake
 scoreboard objectives add sb.used.calcite used:calcite
 scoreboard objectives add sb.used.calibrated_sculk_sensor used:calibrated_sculk_sensor
@@ -7482,6 +7541,7 @@ scoreboard objectives add sb.used.fire_charge used:fire_charge
 scoreboard objectives add sb.used.fire_coral used:fire_coral
 scoreboard objectives add sb.used.fire_coral_block used:fire_coral_block
 scoreboard objectives add sb.used.fire_coral_fan used:fire_coral_fan
+scoreboard objectives add sb.used.firefly_bush used:firefly_bush
 scoreboard objectives add sb.used.firework_rocket used:firework_rocket
 scoreboard objectives add sb.used.firework_star used:firework_star
 scoreboard objectives add sb.used.fishing_rod used:fishing_rod
@@ -7653,6 +7713,7 @@ scoreboard objectives add sb.used.large_amethyst_bud used:large_amethyst_bud
 scoreboard objectives add sb.used.large_fern used:large_fern
 scoreboard objectives add sb.used.lava_bucket used:lava_bucket
 scoreboard objectives add sb.used.lead used:lead
+scoreboard objectives add sb.used.leaf_litter used:leaf_litter
 scoreboard objectives add sb.used.leather used:leather
 scoreboard objectives add sb.used.leather_boots used:leather_boots
 scoreboard objectives add sb.used.leather_chestplate used:leather_chestplate
@@ -8102,6 +8163,7 @@ scoreboard objectives add sb.used.shears used:shears
 scoreboard objectives add sb.used.sheep_spawn_egg used:sheep_spawn_egg
 scoreboard objectives add sb.used.shelter_pottery_sherd used:shelter_pottery_sherd
 scoreboard objectives add sb.used.shield used:shield
+scoreboard objectives add sb.used.short_dry_grass used:short_dry_grass
 scoreboard objectives add sb.used.short_grass used:short_grass
 scoreboard objectives add sb.used.shroomlight used:shroomlight
 scoreboard objectives add sb.used.shulker_box used:shulker_box
@@ -8227,9 +8289,12 @@ scoreboard objectives add sb.used.suspicious_stew used:suspicious_stew
 scoreboard objectives add sb.used.sweet_berries used:sweet_berries
 scoreboard objectives add sb.used.tadpole_bucket used:tadpole_bucket
 scoreboard objectives add sb.used.tadpole_spawn_egg used:tadpole_spawn_egg
+scoreboard objectives add sb.used.tall_dry_grass used:tall_dry_grass
 scoreboard objectives add sb.used.tall_grass used:tall_grass
 scoreboard objectives add sb.used.target used:target
 scoreboard objectives add sb.used.terracotta used:terracotta
+scoreboard objectives add sb.used.test_block used:test_block
+scoreboard objectives add sb.used.test_instance_block used:test_instance_block
 scoreboard objectives add sb.used.tide_armor_trim_smithing_template used:tide_armor_trim_smithing_template
 scoreboard objectives add sb.used.tinted_glass used:tinted_glass
 scoreboard objectives add sb.used.tipped_arrow used:tipped_arrow
@@ -8359,6 +8424,7 @@ scoreboard objectives add sb.used.white_terracotta used:white_terracotta
 scoreboard objectives add sb.used.white_tulip used:white_tulip
 scoreboard objectives add sb.used.white_wool used:white_wool
 scoreboard objectives add sb.used.wild_armor_trim_smithing_template used:wild_armor_trim_smithing_template
+scoreboard objectives add sb.used.wildflowers used:wildflowers
 scoreboard objectives add sb.used.wind_charge used:wind_charge
 scoreboard objectives add sb.used.witch_spawn_egg used:witch_spawn_egg
 scoreboard objectives add sb.used.wither_rose used:wither_rose
