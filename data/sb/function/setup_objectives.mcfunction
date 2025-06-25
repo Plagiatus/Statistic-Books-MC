@@ -104,6 +104,7 @@ scoreboard objectives add sb.broken.black_concrete broken:black_concrete
 scoreboard objectives add sb.broken.black_concrete_powder broken:black_concrete_powder
 scoreboard objectives add sb.broken.black_dye broken:black_dye
 scoreboard objectives add sb.broken.black_glazed_terracotta broken:black_glazed_terracotta
+scoreboard objectives add sb.broken.black_harness broken:black_harness
 scoreboard objectives add sb.broken.black_shulker_box broken:black_shulker_box
 scoreboard objectives add sb.broken.black_stained_glass broken:black_stained_glass
 scoreboard objectives add sb.broken.black_stained_glass_pane broken:black_stained_glass_pane
@@ -128,6 +129,7 @@ scoreboard objectives add sb.broken.blue_concrete_powder broken:blue_concrete_po
 scoreboard objectives add sb.broken.blue_dye broken:blue_dye
 scoreboard objectives add sb.broken.blue_egg broken:blue_egg
 scoreboard objectives add sb.broken.blue_glazed_terracotta broken:blue_glazed_terracotta
+scoreboard objectives add sb.broken.blue_harness broken:blue_harness
 scoreboard objectives add sb.broken.blue_ice broken:blue_ice
 scoreboard objectives add sb.broken.blue_orchid broken:blue_orchid
 scoreboard objectives add sb.broken.blue_shulker_box broken:blue_shulker_box
@@ -168,6 +170,7 @@ scoreboard objectives add sb.broken.brown_concrete_powder broken:brown_concrete_
 scoreboard objectives add sb.broken.brown_dye broken:brown_dye
 scoreboard objectives add sb.broken.brown_egg broken:brown_egg
 scoreboard objectives add sb.broken.brown_glazed_terracotta broken:brown_glazed_terracotta
+scoreboard objectives add sb.broken.brown_harness broken:brown_harness
 scoreboard objectives add sb.broken.brown_mushroom broken:brown_mushroom
 scoreboard objectives add sb.broken.brown_mushroom_block broken:brown_mushroom_block
 scoreboard objectives add sb.broken.brown_shulker_box broken:brown_shulker_box
@@ -334,6 +337,7 @@ scoreboard objectives add sb.broken.cyan_concrete broken:cyan_concrete
 scoreboard objectives add sb.broken.cyan_concrete_powder broken:cyan_concrete_powder
 scoreboard objectives add sb.broken.cyan_dye broken:cyan_dye
 scoreboard objectives add sb.broken.cyan_glazed_terracotta broken:cyan_glazed_terracotta
+scoreboard objectives add sb.broken.cyan_harness broken:cyan_harness
 scoreboard objectives add sb.broken.cyan_shulker_box broken:cyan_shulker_box
 scoreboard objectives add sb.broken.cyan_stained_glass broken:cyan_stained_glass
 scoreboard objectives add sb.broken.cyan_stained_glass_pane broken:cyan_stained_glass_pane
@@ -425,6 +429,7 @@ scoreboard objectives add sb.broken.donkey_spawn_egg broken:donkey_spawn_egg
 scoreboard objectives add sb.broken.dragon_breath broken:dragon_breath
 scoreboard objectives add sb.broken.dragon_egg broken:dragon_egg
 scoreboard objectives add sb.broken.dragon_head broken:dragon_head
+scoreboard objectives add sb.broken.dried_ghast broken:dried_ghast
 scoreboard objectives add sb.broken.dried_kelp broken:dried_kelp
 scoreboard objectives add sb.broken.dried_kelp_block broken:dried_kelp_block
 scoreboard objectives add sb.broken.dripstone_block broken:dripstone_block
@@ -546,6 +551,7 @@ scoreboard objectives add sb.broken.gray_concrete broken:gray_concrete
 scoreboard objectives add sb.broken.gray_concrete_powder broken:gray_concrete_powder
 scoreboard objectives add sb.broken.gray_dye broken:gray_dye
 scoreboard objectives add sb.broken.gray_glazed_terracotta broken:gray_glazed_terracotta
+scoreboard objectives add sb.broken.gray_harness broken:gray_harness
 scoreboard objectives add sb.broken.gray_shulker_box broken:gray_shulker_box
 scoreboard objectives add sb.broken.gray_stained_glass broken:gray_stained_glass
 scoreboard objectives add sb.broken.gray_stained_glass_pane broken:gray_stained_glass_pane
@@ -560,6 +566,7 @@ scoreboard objectives add sb.broken.green_concrete broken:green_concrete
 scoreboard objectives add sb.broken.green_concrete_powder broken:green_concrete_powder
 scoreboard objectives add sb.broken.green_dye broken:green_dye
 scoreboard objectives add sb.broken.green_glazed_terracotta broken:green_glazed_terracotta
+scoreboard objectives add sb.broken.green_harness broken:green_harness
 scoreboard objectives add sb.broken.green_shulker_box broken:green_shulker_box
 scoreboard objectives add sb.broken.green_stained_glass broken:green_stained_glass
 scoreboard objectives add sb.broken.green_stained_glass_pane broken:green_stained_glass_pane
@@ -571,6 +578,7 @@ scoreboard objectives add sb.broken.gunpowder broken:gunpowder
 scoreboard objectives add sb.broken.guster_banner_pattern broken:guster_banner_pattern
 scoreboard objectives add sb.broken.guster_pottery_sherd broken:guster_pottery_sherd
 scoreboard objectives add sb.broken.hanging_roots broken:hanging_roots
+scoreboard objectives add sb.broken.happy_ghast_spawn_egg broken:happy_ghast_spawn_egg
 scoreboard objectives add sb.broken.hay_block broken:hay_block
 scoreboard objectives add sb.broken.heart_of_the_sea broken:heart_of_the_sea
 scoreboard objectives add sb.broken.heart_pottery_sherd broken:heart_pottery_sherd
@@ -669,6 +677,7 @@ scoreboard objectives add sb.broken.light_blue_concrete broken:light_blue_concre
 scoreboard objectives add sb.broken.light_blue_concrete_powder broken:light_blue_concrete_powder
 scoreboard objectives add sb.broken.light_blue_dye broken:light_blue_dye
 scoreboard objectives add sb.broken.light_blue_glazed_terracotta broken:light_blue_glazed_terracotta
+scoreboard objectives add sb.broken.light_blue_harness broken:light_blue_harness
 scoreboard objectives add sb.broken.light_blue_shulker_box broken:light_blue_shulker_box
 scoreboard objectives add sb.broken.light_blue_stained_glass broken:light_blue_stained_glass
 scoreboard objectives add sb.broken.light_blue_stained_glass_pane broken:light_blue_stained_glass_pane
@@ -683,6 +692,7 @@ scoreboard objectives add sb.broken.light_gray_concrete broken:light_gray_concre
 scoreboard objectives add sb.broken.light_gray_concrete_powder broken:light_gray_concrete_powder
 scoreboard objectives add sb.broken.light_gray_dye broken:light_gray_dye
 scoreboard objectives add sb.broken.light_gray_glazed_terracotta broken:light_gray_glazed_terracotta
+scoreboard objectives add sb.broken.light_gray_harness broken:light_gray_harness
 scoreboard objectives add sb.broken.light_gray_shulker_box broken:light_gray_shulker_box
 scoreboard objectives add sb.broken.light_gray_stained_glass broken:light_gray_stained_glass
 scoreboard objectives add sb.broken.light_gray_stained_glass_pane broken:light_gray_stained_glass_pane
@@ -702,6 +712,7 @@ scoreboard objectives add sb.broken.lime_concrete broken:lime_concrete
 scoreboard objectives add sb.broken.lime_concrete_powder broken:lime_concrete_powder
 scoreboard objectives add sb.broken.lime_dye broken:lime_dye
 scoreboard objectives add sb.broken.lime_glazed_terracotta broken:lime_glazed_terracotta
+scoreboard objectives add sb.broken.lime_harness broken:lime_harness
 scoreboard objectives add sb.broken.lime_shulker_box broken:lime_shulker_box
 scoreboard objectives add sb.broken.lime_stained_glass broken:lime_stained_glass
 scoreboard objectives add sb.broken.lime_stained_glass_pane broken:lime_stained_glass_pane
@@ -721,6 +732,7 @@ scoreboard objectives add sb.broken.magenta_concrete broken:magenta_concrete
 scoreboard objectives add sb.broken.magenta_concrete_powder broken:magenta_concrete_powder
 scoreboard objectives add sb.broken.magenta_dye broken:magenta_dye
 scoreboard objectives add sb.broken.magenta_glazed_terracotta broken:magenta_glazed_terracotta
+scoreboard objectives add sb.broken.magenta_harness broken:magenta_harness
 scoreboard objectives add sb.broken.magenta_shulker_box broken:magenta_shulker_box
 scoreboard objectives add sb.broken.magenta_stained_glass broken:magenta_stained_glass
 scoreboard objectives add sb.broken.magenta_stained_glass_pane broken:magenta_stained_glass_pane
@@ -794,6 +806,7 @@ scoreboard objectives add sb.broken.music_disc_precipice broken:music_disc_preci
 scoreboard objectives add sb.broken.music_disc_relic broken:music_disc_relic
 scoreboard objectives add sb.broken.music_disc_stal broken:music_disc_stal
 scoreboard objectives add sb.broken.music_disc_strad broken:music_disc_strad
+scoreboard objectives add sb.broken.music_disc_tears broken:music_disc_tears
 scoreboard objectives add sb.broken.music_disc_wait broken:music_disc_wait
 scoreboard objectives add sb.broken.music_disc_ward broken:music_disc_ward
 scoreboard objectives add sb.broken.mutton broken:mutton
@@ -860,6 +873,7 @@ scoreboard objectives add sb.broken.orange_concrete broken:orange_concrete
 scoreboard objectives add sb.broken.orange_concrete_powder broken:orange_concrete_powder
 scoreboard objectives add sb.broken.orange_dye broken:orange_dye
 scoreboard objectives add sb.broken.orange_glazed_terracotta broken:orange_glazed_terracotta
+scoreboard objectives add sb.broken.orange_harness broken:orange_harness
 scoreboard objectives add sb.broken.orange_shulker_box broken:orange_shulker_box
 scoreboard objectives add sb.broken.orange_stained_glass broken:orange_stained_glass
 scoreboard objectives add sb.broken.orange_stained_glass_pane broken:orange_stained_glass_pane
@@ -922,6 +936,7 @@ scoreboard objectives add sb.broken.pink_concrete broken:pink_concrete
 scoreboard objectives add sb.broken.pink_concrete_powder broken:pink_concrete_powder
 scoreboard objectives add sb.broken.pink_dye broken:pink_dye
 scoreboard objectives add sb.broken.pink_glazed_terracotta broken:pink_glazed_terracotta
+scoreboard objectives add sb.broken.pink_harness broken:pink_harness
 scoreboard objectives add sb.broken.pink_petals broken:pink_petals
 scoreboard objectives add sb.broken.pink_shulker_box broken:pink_shulker_box
 scoreboard objectives add sb.broken.pink_stained_glass broken:pink_stained_glass
@@ -998,6 +1013,7 @@ scoreboard objectives add sb.broken.purple_concrete broken:purple_concrete
 scoreboard objectives add sb.broken.purple_concrete_powder broken:purple_concrete_powder
 scoreboard objectives add sb.broken.purple_dye broken:purple_dye
 scoreboard objectives add sb.broken.purple_glazed_terracotta broken:purple_glazed_terracotta
+scoreboard objectives add sb.broken.purple_harness broken:purple_harness
 scoreboard objectives add sb.broken.purple_shulker_box broken:purple_shulker_box
 scoreboard objectives add sb.broken.purple_stained_glass broken:purple_stained_glass
 scoreboard objectives add sb.broken.purple_stained_glass_pane broken:purple_stained_glass_pane
@@ -1037,6 +1053,7 @@ scoreboard objectives add sb.broken.red_concrete broken:red_concrete
 scoreboard objectives add sb.broken.red_concrete_powder broken:red_concrete_powder
 scoreboard objectives add sb.broken.red_dye broken:red_dye
 scoreboard objectives add sb.broken.red_glazed_terracotta broken:red_glazed_terracotta
+scoreboard objectives add sb.broken.red_harness broken:red_harness
 scoreboard objectives add sb.broken.red_mushroom broken:red_mushroom
 scoreboard objectives add sb.broken.red_mushroom_block broken:red_mushroom_block
 scoreboard objectives add sb.broken.red_nether_brick_slab broken:red_nether_brick_slab
@@ -1354,6 +1371,7 @@ scoreboard objectives add sb.broken.white_concrete broken:white_concrete
 scoreboard objectives add sb.broken.white_concrete_powder broken:white_concrete_powder
 scoreboard objectives add sb.broken.white_dye broken:white_dye
 scoreboard objectives add sb.broken.white_glazed_terracotta broken:white_glazed_terracotta
+scoreboard objectives add sb.broken.white_harness broken:white_harness
 scoreboard objectives add sb.broken.white_shulker_box broken:white_shulker_box
 scoreboard objectives add sb.broken.white_stained_glass broken:white_stained_glass
 scoreboard objectives add sb.broken.white_stained_glass_pane broken:white_stained_glass_pane
@@ -1386,6 +1404,7 @@ scoreboard objectives add sb.broken.yellow_concrete broken:yellow_concrete
 scoreboard objectives add sb.broken.yellow_concrete_powder broken:yellow_concrete_powder
 scoreboard objectives add sb.broken.yellow_dye broken:yellow_dye
 scoreboard objectives add sb.broken.yellow_glazed_terracotta broken:yellow_glazed_terracotta
+scoreboard objectives add sb.broken.yellow_harness broken:yellow_harness
 scoreboard objectives add sb.broken.yellow_shulker_box broken:yellow_shulker_box
 scoreboard objectives add sb.broken.yellow_stained_glass broken:yellow_stained_glass
 scoreboard objectives add sb.broken.yellow_stained_glass_pane broken:yellow_stained_glass_pane
@@ -1500,6 +1519,7 @@ scoreboard objectives add sb.crafted.black_concrete crafted:black_concrete
 scoreboard objectives add sb.crafted.black_concrete_powder crafted:black_concrete_powder
 scoreboard objectives add sb.crafted.black_dye crafted:black_dye
 scoreboard objectives add sb.crafted.black_glazed_terracotta crafted:black_glazed_terracotta
+scoreboard objectives add sb.crafted.black_harness crafted:black_harness
 scoreboard objectives add sb.crafted.black_shulker_box crafted:black_shulker_box
 scoreboard objectives add sb.crafted.black_stained_glass crafted:black_stained_glass
 scoreboard objectives add sb.crafted.black_stained_glass_pane crafted:black_stained_glass_pane
@@ -1524,6 +1544,7 @@ scoreboard objectives add sb.crafted.blue_concrete_powder crafted:blue_concrete_
 scoreboard objectives add sb.crafted.blue_dye crafted:blue_dye
 scoreboard objectives add sb.crafted.blue_egg crafted:blue_egg
 scoreboard objectives add sb.crafted.blue_glazed_terracotta crafted:blue_glazed_terracotta
+scoreboard objectives add sb.crafted.blue_harness crafted:blue_harness
 scoreboard objectives add sb.crafted.blue_ice crafted:blue_ice
 scoreboard objectives add sb.crafted.blue_orchid crafted:blue_orchid
 scoreboard objectives add sb.crafted.blue_shulker_box crafted:blue_shulker_box
@@ -1564,6 +1585,7 @@ scoreboard objectives add sb.crafted.brown_concrete_powder crafted:brown_concret
 scoreboard objectives add sb.crafted.brown_dye crafted:brown_dye
 scoreboard objectives add sb.crafted.brown_egg crafted:brown_egg
 scoreboard objectives add sb.crafted.brown_glazed_terracotta crafted:brown_glazed_terracotta
+scoreboard objectives add sb.crafted.brown_harness crafted:brown_harness
 scoreboard objectives add sb.crafted.brown_mushroom crafted:brown_mushroom
 scoreboard objectives add sb.crafted.brown_mushroom_block crafted:brown_mushroom_block
 scoreboard objectives add sb.crafted.brown_shulker_box crafted:brown_shulker_box
@@ -1730,6 +1752,7 @@ scoreboard objectives add sb.crafted.cyan_concrete crafted:cyan_concrete
 scoreboard objectives add sb.crafted.cyan_concrete_powder crafted:cyan_concrete_powder
 scoreboard objectives add sb.crafted.cyan_dye crafted:cyan_dye
 scoreboard objectives add sb.crafted.cyan_glazed_terracotta crafted:cyan_glazed_terracotta
+scoreboard objectives add sb.crafted.cyan_harness crafted:cyan_harness
 scoreboard objectives add sb.crafted.cyan_shulker_box crafted:cyan_shulker_box
 scoreboard objectives add sb.crafted.cyan_stained_glass crafted:cyan_stained_glass
 scoreboard objectives add sb.crafted.cyan_stained_glass_pane crafted:cyan_stained_glass_pane
@@ -1821,6 +1844,7 @@ scoreboard objectives add sb.crafted.donkey_spawn_egg crafted:donkey_spawn_egg
 scoreboard objectives add sb.crafted.dragon_breath crafted:dragon_breath
 scoreboard objectives add sb.crafted.dragon_egg crafted:dragon_egg
 scoreboard objectives add sb.crafted.dragon_head crafted:dragon_head
+scoreboard objectives add sb.crafted.dried_ghast crafted:dried_ghast
 scoreboard objectives add sb.crafted.dried_kelp crafted:dried_kelp
 scoreboard objectives add sb.crafted.dried_kelp_block crafted:dried_kelp_block
 scoreboard objectives add sb.crafted.dripstone_block crafted:dripstone_block
@@ -1942,6 +1966,7 @@ scoreboard objectives add sb.crafted.gray_concrete crafted:gray_concrete
 scoreboard objectives add sb.crafted.gray_concrete_powder crafted:gray_concrete_powder
 scoreboard objectives add sb.crafted.gray_dye crafted:gray_dye
 scoreboard objectives add sb.crafted.gray_glazed_terracotta crafted:gray_glazed_terracotta
+scoreboard objectives add sb.crafted.gray_harness crafted:gray_harness
 scoreboard objectives add sb.crafted.gray_shulker_box crafted:gray_shulker_box
 scoreboard objectives add sb.crafted.gray_stained_glass crafted:gray_stained_glass
 scoreboard objectives add sb.crafted.gray_stained_glass_pane crafted:gray_stained_glass_pane
@@ -1956,6 +1981,7 @@ scoreboard objectives add sb.crafted.green_concrete crafted:green_concrete
 scoreboard objectives add sb.crafted.green_concrete_powder crafted:green_concrete_powder
 scoreboard objectives add sb.crafted.green_dye crafted:green_dye
 scoreboard objectives add sb.crafted.green_glazed_terracotta crafted:green_glazed_terracotta
+scoreboard objectives add sb.crafted.green_harness crafted:green_harness
 scoreboard objectives add sb.crafted.green_shulker_box crafted:green_shulker_box
 scoreboard objectives add sb.crafted.green_stained_glass crafted:green_stained_glass
 scoreboard objectives add sb.crafted.green_stained_glass_pane crafted:green_stained_glass_pane
@@ -1967,6 +1993,7 @@ scoreboard objectives add sb.crafted.gunpowder crafted:gunpowder
 scoreboard objectives add sb.crafted.guster_banner_pattern crafted:guster_banner_pattern
 scoreboard objectives add sb.crafted.guster_pottery_sherd crafted:guster_pottery_sherd
 scoreboard objectives add sb.crafted.hanging_roots crafted:hanging_roots
+scoreboard objectives add sb.crafted.happy_ghast_spawn_egg crafted:happy_ghast_spawn_egg
 scoreboard objectives add sb.crafted.hay_block crafted:hay_block
 scoreboard objectives add sb.crafted.heart_of_the_sea crafted:heart_of_the_sea
 scoreboard objectives add sb.crafted.heart_pottery_sherd crafted:heart_pottery_sherd
@@ -2065,6 +2092,7 @@ scoreboard objectives add sb.crafted.light_blue_concrete crafted:light_blue_conc
 scoreboard objectives add sb.crafted.light_blue_concrete_powder crafted:light_blue_concrete_powder
 scoreboard objectives add sb.crafted.light_blue_dye crafted:light_blue_dye
 scoreboard objectives add sb.crafted.light_blue_glazed_terracotta crafted:light_blue_glazed_terracotta
+scoreboard objectives add sb.crafted.light_blue_harness crafted:light_blue_harness
 scoreboard objectives add sb.crafted.light_blue_shulker_box crafted:light_blue_shulker_box
 scoreboard objectives add sb.crafted.light_blue_stained_glass crafted:light_blue_stained_glass
 scoreboard objectives add sb.crafted.light_blue_stained_glass_pane crafted:light_blue_stained_glass_pane
@@ -2079,6 +2107,7 @@ scoreboard objectives add sb.crafted.light_gray_concrete crafted:light_gray_conc
 scoreboard objectives add sb.crafted.light_gray_concrete_powder crafted:light_gray_concrete_powder
 scoreboard objectives add sb.crafted.light_gray_dye crafted:light_gray_dye
 scoreboard objectives add sb.crafted.light_gray_glazed_terracotta crafted:light_gray_glazed_terracotta
+scoreboard objectives add sb.crafted.light_gray_harness crafted:light_gray_harness
 scoreboard objectives add sb.crafted.light_gray_shulker_box crafted:light_gray_shulker_box
 scoreboard objectives add sb.crafted.light_gray_stained_glass crafted:light_gray_stained_glass
 scoreboard objectives add sb.crafted.light_gray_stained_glass_pane crafted:light_gray_stained_glass_pane
@@ -2098,6 +2127,7 @@ scoreboard objectives add sb.crafted.lime_concrete crafted:lime_concrete
 scoreboard objectives add sb.crafted.lime_concrete_powder crafted:lime_concrete_powder
 scoreboard objectives add sb.crafted.lime_dye crafted:lime_dye
 scoreboard objectives add sb.crafted.lime_glazed_terracotta crafted:lime_glazed_terracotta
+scoreboard objectives add sb.crafted.lime_harness crafted:lime_harness
 scoreboard objectives add sb.crafted.lime_shulker_box crafted:lime_shulker_box
 scoreboard objectives add sb.crafted.lime_stained_glass crafted:lime_stained_glass
 scoreboard objectives add sb.crafted.lime_stained_glass_pane crafted:lime_stained_glass_pane
@@ -2117,6 +2147,7 @@ scoreboard objectives add sb.crafted.magenta_concrete crafted:magenta_concrete
 scoreboard objectives add sb.crafted.magenta_concrete_powder crafted:magenta_concrete_powder
 scoreboard objectives add sb.crafted.magenta_dye crafted:magenta_dye
 scoreboard objectives add sb.crafted.magenta_glazed_terracotta crafted:magenta_glazed_terracotta
+scoreboard objectives add sb.crafted.magenta_harness crafted:magenta_harness
 scoreboard objectives add sb.crafted.magenta_shulker_box crafted:magenta_shulker_box
 scoreboard objectives add sb.crafted.magenta_stained_glass crafted:magenta_stained_glass
 scoreboard objectives add sb.crafted.magenta_stained_glass_pane crafted:magenta_stained_glass_pane
@@ -2190,6 +2221,7 @@ scoreboard objectives add sb.crafted.music_disc_precipice crafted:music_disc_pre
 scoreboard objectives add sb.crafted.music_disc_relic crafted:music_disc_relic
 scoreboard objectives add sb.crafted.music_disc_stal crafted:music_disc_stal
 scoreboard objectives add sb.crafted.music_disc_strad crafted:music_disc_strad
+scoreboard objectives add sb.crafted.music_disc_tears crafted:music_disc_tears
 scoreboard objectives add sb.crafted.music_disc_wait crafted:music_disc_wait
 scoreboard objectives add sb.crafted.music_disc_ward crafted:music_disc_ward
 scoreboard objectives add sb.crafted.mutton crafted:mutton
@@ -2256,6 +2288,7 @@ scoreboard objectives add sb.crafted.orange_concrete crafted:orange_concrete
 scoreboard objectives add sb.crafted.orange_concrete_powder crafted:orange_concrete_powder
 scoreboard objectives add sb.crafted.orange_dye crafted:orange_dye
 scoreboard objectives add sb.crafted.orange_glazed_terracotta crafted:orange_glazed_terracotta
+scoreboard objectives add sb.crafted.orange_harness crafted:orange_harness
 scoreboard objectives add sb.crafted.orange_shulker_box crafted:orange_shulker_box
 scoreboard objectives add sb.crafted.orange_stained_glass crafted:orange_stained_glass
 scoreboard objectives add sb.crafted.orange_stained_glass_pane crafted:orange_stained_glass_pane
@@ -2318,6 +2351,7 @@ scoreboard objectives add sb.crafted.pink_concrete crafted:pink_concrete
 scoreboard objectives add sb.crafted.pink_concrete_powder crafted:pink_concrete_powder
 scoreboard objectives add sb.crafted.pink_dye crafted:pink_dye
 scoreboard objectives add sb.crafted.pink_glazed_terracotta crafted:pink_glazed_terracotta
+scoreboard objectives add sb.crafted.pink_harness crafted:pink_harness
 scoreboard objectives add sb.crafted.pink_petals crafted:pink_petals
 scoreboard objectives add sb.crafted.pink_shulker_box crafted:pink_shulker_box
 scoreboard objectives add sb.crafted.pink_stained_glass crafted:pink_stained_glass
@@ -2394,6 +2428,7 @@ scoreboard objectives add sb.crafted.purple_concrete crafted:purple_concrete
 scoreboard objectives add sb.crafted.purple_concrete_powder crafted:purple_concrete_powder
 scoreboard objectives add sb.crafted.purple_dye crafted:purple_dye
 scoreboard objectives add sb.crafted.purple_glazed_terracotta crafted:purple_glazed_terracotta
+scoreboard objectives add sb.crafted.purple_harness crafted:purple_harness
 scoreboard objectives add sb.crafted.purple_shulker_box crafted:purple_shulker_box
 scoreboard objectives add sb.crafted.purple_stained_glass crafted:purple_stained_glass
 scoreboard objectives add sb.crafted.purple_stained_glass_pane crafted:purple_stained_glass_pane
@@ -2433,6 +2468,7 @@ scoreboard objectives add sb.crafted.red_concrete crafted:red_concrete
 scoreboard objectives add sb.crafted.red_concrete_powder crafted:red_concrete_powder
 scoreboard objectives add sb.crafted.red_dye crafted:red_dye
 scoreboard objectives add sb.crafted.red_glazed_terracotta crafted:red_glazed_terracotta
+scoreboard objectives add sb.crafted.red_harness crafted:red_harness
 scoreboard objectives add sb.crafted.red_mushroom crafted:red_mushroom
 scoreboard objectives add sb.crafted.red_mushroom_block crafted:red_mushroom_block
 scoreboard objectives add sb.crafted.red_nether_brick_slab crafted:red_nether_brick_slab
@@ -2750,6 +2786,7 @@ scoreboard objectives add sb.crafted.white_concrete crafted:white_concrete
 scoreboard objectives add sb.crafted.white_concrete_powder crafted:white_concrete_powder
 scoreboard objectives add sb.crafted.white_dye crafted:white_dye
 scoreboard objectives add sb.crafted.white_glazed_terracotta crafted:white_glazed_terracotta
+scoreboard objectives add sb.crafted.white_harness crafted:white_harness
 scoreboard objectives add sb.crafted.white_shulker_box crafted:white_shulker_box
 scoreboard objectives add sb.crafted.white_stained_glass crafted:white_stained_glass
 scoreboard objectives add sb.crafted.white_stained_glass_pane crafted:white_stained_glass_pane
@@ -2782,6 +2819,7 @@ scoreboard objectives add sb.crafted.yellow_concrete crafted:yellow_concrete
 scoreboard objectives add sb.crafted.yellow_concrete_powder crafted:yellow_concrete_powder
 scoreboard objectives add sb.crafted.yellow_dye crafted:yellow_dye
 scoreboard objectives add sb.crafted.yellow_glazed_terracotta crafted:yellow_glazed_terracotta
+scoreboard objectives add sb.crafted.yellow_harness crafted:yellow_harness
 scoreboard objectives add sb.crafted.yellow_shulker_box crafted:yellow_shulker_box
 scoreboard objectives add sb.crafted.yellow_stained_glass crafted:yellow_stained_glass
 scoreboard objectives add sb.crafted.yellow_stained_glass_pane crafted:yellow_stained_glass_pane
@@ -2817,6 +2855,7 @@ scoreboard objectives add sb.custom.fall_one_cm custom:fall_one_cm
 scoreboard objectives add sb.custom.fill_cauldron custom:fill_cauldron
 scoreboard objectives add sb.custom.fish_caught custom:fish_caught
 scoreboard objectives add sb.custom.fly_one_cm custom:fly_one_cm
+scoreboard objectives add sb.custom.happy_ghast_one_cm custom:happy_ghast_one_cm
 scoreboard objectives add sb.custom.horse_one_cm custom:horse_one_cm
 scoreboard objectives add sb.custom.inspect_dispenser custom:inspect_dispenser
 scoreboard objectives add sb.custom.inspect_dropper custom:inspect_dropper
@@ -2971,6 +3010,7 @@ scoreboard objectives add sb.dropped.black_concrete dropped:black_concrete
 scoreboard objectives add sb.dropped.black_concrete_powder dropped:black_concrete_powder
 scoreboard objectives add sb.dropped.black_dye dropped:black_dye
 scoreboard objectives add sb.dropped.black_glazed_terracotta dropped:black_glazed_terracotta
+scoreboard objectives add sb.dropped.black_harness dropped:black_harness
 scoreboard objectives add sb.dropped.black_shulker_box dropped:black_shulker_box
 scoreboard objectives add sb.dropped.black_stained_glass dropped:black_stained_glass
 scoreboard objectives add sb.dropped.black_stained_glass_pane dropped:black_stained_glass_pane
@@ -2995,6 +3035,7 @@ scoreboard objectives add sb.dropped.blue_concrete_powder dropped:blue_concrete_
 scoreboard objectives add sb.dropped.blue_dye dropped:blue_dye
 scoreboard objectives add sb.dropped.blue_egg dropped:blue_egg
 scoreboard objectives add sb.dropped.blue_glazed_terracotta dropped:blue_glazed_terracotta
+scoreboard objectives add sb.dropped.blue_harness dropped:blue_harness
 scoreboard objectives add sb.dropped.blue_ice dropped:blue_ice
 scoreboard objectives add sb.dropped.blue_orchid dropped:blue_orchid
 scoreboard objectives add sb.dropped.blue_shulker_box dropped:blue_shulker_box
@@ -3035,6 +3076,7 @@ scoreboard objectives add sb.dropped.brown_concrete_powder dropped:brown_concret
 scoreboard objectives add sb.dropped.brown_dye dropped:brown_dye
 scoreboard objectives add sb.dropped.brown_egg dropped:brown_egg
 scoreboard objectives add sb.dropped.brown_glazed_terracotta dropped:brown_glazed_terracotta
+scoreboard objectives add sb.dropped.brown_harness dropped:brown_harness
 scoreboard objectives add sb.dropped.brown_mushroom dropped:brown_mushroom
 scoreboard objectives add sb.dropped.brown_mushroom_block dropped:brown_mushroom_block
 scoreboard objectives add sb.dropped.brown_shulker_box dropped:brown_shulker_box
@@ -3201,6 +3243,7 @@ scoreboard objectives add sb.dropped.cyan_concrete dropped:cyan_concrete
 scoreboard objectives add sb.dropped.cyan_concrete_powder dropped:cyan_concrete_powder
 scoreboard objectives add sb.dropped.cyan_dye dropped:cyan_dye
 scoreboard objectives add sb.dropped.cyan_glazed_terracotta dropped:cyan_glazed_terracotta
+scoreboard objectives add sb.dropped.cyan_harness dropped:cyan_harness
 scoreboard objectives add sb.dropped.cyan_shulker_box dropped:cyan_shulker_box
 scoreboard objectives add sb.dropped.cyan_stained_glass dropped:cyan_stained_glass
 scoreboard objectives add sb.dropped.cyan_stained_glass_pane dropped:cyan_stained_glass_pane
@@ -3292,6 +3335,7 @@ scoreboard objectives add sb.dropped.donkey_spawn_egg dropped:donkey_spawn_egg
 scoreboard objectives add sb.dropped.dragon_breath dropped:dragon_breath
 scoreboard objectives add sb.dropped.dragon_egg dropped:dragon_egg
 scoreboard objectives add sb.dropped.dragon_head dropped:dragon_head
+scoreboard objectives add sb.dropped.dried_ghast dropped:dried_ghast
 scoreboard objectives add sb.dropped.dried_kelp dropped:dried_kelp
 scoreboard objectives add sb.dropped.dried_kelp_block dropped:dried_kelp_block
 scoreboard objectives add sb.dropped.dripstone_block dropped:dripstone_block
@@ -3413,6 +3457,7 @@ scoreboard objectives add sb.dropped.gray_concrete dropped:gray_concrete
 scoreboard objectives add sb.dropped.gray_concrete_powder dropped:gray_concrete_powder
 scoreboard objectives add sb.dropped.gray_dye dropped:gray_dye
 scoreboard objectives add sb.dropped.gray_glazed_terracotta dropped:gray_glazed_terracotta
+scoreboard objectives add sb.dropped.gray_harness dropped:gray_harness
 scoreboard objectives add sb.dropped.gray_shulker_box dropped:gray_shulker_box
 scoreboard objectives add sb.dropped.gray_stained_glass dropped:gray_stained_glass
 scoreboard objectives add sb.dropped.gray_stained_glass_pane dropped:gray_stained_glass_pane
@@ -3427,6 +3472,7 @@ scoreboard objectives add sb.dropped.green_concrete dropped:green_concrete
 scoreboard objectives add sb.dropped.green_concrete_powder dropped:green_concrete_powder
 scoreboard objectives add sb.dropped.green_dye dropped:green_dye
 scoreboard objectives add sb.dropped.green_glazed_terracotta dropped:green_glazed_terracotta
+scoreboard objectives add sb.dropped.green_harness dropped:green_harness
 scoreboard objectives add sb.dropped.green_shulker_box dropped:green_shulker_box
 scoreboard objectives add sb.dropped.green_stained_glass dropped:green_stained_glass
 scoreboard objectives add sb.dropped.green_stained_glass_pane dropped:green_stained_glass_pane
@@ -3438,6 +3484,7 @@ scoreboard objectives add sb.dropped.gunpowder dropped:gunpowder
 scoreboard objectives add sb.dropped.guster_banner_pattern dropped:guster_banner_pattern
 scoreboard objectives add sb.dropped.guster_pottery_sherd dropped:guster_pottery_sherd
 scoreboard objectives add sb.dropped.hanging_roots dropped:hanging_roots
+scoreboard objectives add sb.dropped.happy_ghast_spawn_egg dropped:happy_ghast_spawn_egg
 scoreboard objectives add sb.dropped.hay_block dropped:hay_block
 scoreboard objectives add sb.dropped.heart_of_the_sea dropped:heart_of_the_sea
 scoreboard objectives add sb.dropped.heart_pottery_sherd dropped:heart_pottery_sherd
@@ -3536,6 +3583,7 @@ scoreboard objectives add sb.dropped.light_blue_concrete dropped:light_blue_conc
 scoreboard objectives add sb.dropped.light_blue_concrete_powder dropped:light_blue_concrete_powder
 scoreboard objectives add sb.dropped.light_blue_dye dropped:light_blue_dye
 scoreboard objectives add sb.dropped.light_blue_glazed_terracotta dropped:light_blue_glazed_terracotta
+scoreboard objectives add sb.dropped.light_blue_harness dropped:light_blue_harness
 scoreboard objectives add sb.dropped.light_blue_shulker_box dropped:light_blue_shulker_box
 scoreboard objectives add sb.dropped.light_blue_stained_glass dropped:light_blue_stained_glass
 scoreboard objectives add sb.dropped.light_blue_stained_glass_pane dropped:light_blue_stained_glass_pane
@@ -3550,6 +3598,7 @@ scoreboard objectives add sb.dropped.light_gray_concrete dropped:light_gray_conc
 scoreboard objectives add sb.dropped.light_gray_concrete_powder dropped:light_gray_concrete_powder
 scoreboard objectives add sb.dropped.light_gray_dye dropped:light_gray_dye
 scoreboard objectives add sb.dropped.light_gray_glazed_terracotta dropped:light_gray_glazed_terracotta
+scoreboard objectives add sb.dropped.light_gray_harness dropped:light_gray_harness
 scoreboard objectives add sb.dropped.light_gray_shulker_box dropped:light_gray_shulker_box
 scoreboard objectives add sb.dropped.light_gray_stained_glass dropped:light_gray_stained_glass
 scoreboard objectives add sb.dropped.light_gray_stained_glass_pane dropped:light_gray_stained_glass_pane
@@ -3569,6 +3618,7 @@ scoreboard objectives add sb.dropped.lime_concrete dropped:lime_concrete
 scoreboard objectives add sb.dropped.lime_concrete_powder dropped:lime_concrete_powder
 scoreboard objectives add sb.dropped.lime_dye dropped:lime_dye
 scoreboard objectives add sb.dropped.lime_glazed_terracotta dropped:lime_glazed_terracotta
+scoreboard objectives add sb.dropped.lime_harness dropped:lime_harness
 scoreboard objectives add sb.dropped.lime_shulker_box dropped:lime_shulker_box
 scoreboard objectives add sb.dropped.lime_stained_glass dropped:lime_stained_glass
 scoreboard objectives add sb.dropped.lime_stained_glass_pane dropped:lime_stained_glass_pane
@@ -3588,6 +3638,7 @@ scoreboard objectives add sb.dropped.magenta_concrete dropped:magenta_concrete
 scoreboard objectives add sb.dropped.magenta_concrete_powder dropped:magenta_concrete_powder
 scoreboard objectives add sb.dropped.magenta_dye dropped:magenta_dye
 scoreboard objectives add sb.dropped.magenta_glazed_terracotta dropped:magenta_glazed_terracotta
+scoreboard objectives add sb.dropped.magenta_harness dropped:magenta_harness
 scoreboard objectives add sb.dropped.magenta_shulker_box dropped:magenta_shulker_box
 scoreboard objectives add sb.dropped.magenta_stained_glass dropped:magenta_stained_glass
 scoreboard objectives add sb.dropped.magenta_stained_glass_pane dropped:magenta_stained_glass_pane
@@ -3661,6 +3712,7 @@ scoreboard objectives add sb.dropped.music_disc_precipice dropped:music_disc_pre
 scoreboard objectives add sb.dropped.music_disc_relic dropped:music_disc_relic
 scoreboard objectives add sb.dropped.music_disc_stal dropped:music_disc_stal
 scoreboard objectives add sb.dropped.music_disc_strad dropped:music_disc_strad
+scoreboard objectives add sb.dropped.music_disc_tears dropped:music_disc_tears
 scoreboard objectives add sb.dropped.music_disc_wait dropped:music_disc_wait
 scoreboard objectives add sb.dropped.music_disc_ward dropped:music_disc_ward
 scoreboard objectives add sb.dropped.mutton dropped:mutton
@@ -3727,6 +3779,7 @@ scoreboard objectives add sb.dropped.orange_concrete dropped:orange_concrete
 scoreboard objectives add sb.dropped.orange_concrete_powder dropped:orange_concrete_powder
 scoreboard objectives add sb.dropped.orange_dye dropped:orange_dye
 scoreboard objectives add sb.dropped.orange_glazed_terracotta dropped:orange_glazed_terracotta
+scoreboard objectives add sb.dropped.orange_harness dropped:orange_harness
 scoreboard objectives add sb.dropped.orange_shulker_box dropped:orange_shulker_box
 scoreboard objectives add sb.dropped.orange_stained_glass dropped:orange_stained_glass
 scoreboard objectives add sb.dropped.orange_stained_glass_pane dropped:orange_stained_glass_pane
@@ -3789,6 +3842,7 @@ scoreboard objectives add sb.dropped.pink_concrete dropped:pink_concrete
 scoreboard objectives add sb.dropped.pink_concrete_powder dropped:pink_concrete_powder
 scoreboard objectives add sb.dropped.pink_dye dropped:pink_dye
 scoreboard objectives add sb.dropped.pink_glazed_terracotta dropped:pink_glazed_terracotta
+scoreboard objectives add sb.dropped.pink_harness dropped:pink_harness
 scoreboard objectives add sb.dropped.pink_petals dropped:pink_petals
 scoreboard objectives add sb.dropped.pink_shulker_box dropped:pink_shulker_box
 scoreboard objectives add sb.dropped.pink_stained_glass dropped:pink_stained_glass
@@ -3865,6 +3919,7 @@ scoreboard objectives add sb.dropped.purple_concrete dropped:purple_concrete
 scoreboard objectives add sb.dropped.purple_concrete_powder dropped:purple_concrete_powder
 scoreboard objectives add sb.dropped.purple_dye dropped:purple_dye
 scoreboard objectives add sb.dropped.purple_glazed_terracotta dropped:purple_glazed_terracotta
+scoreboard objectives add sb.dropped.purple_harness dropped:purple_harness
 scoreboard objectives add sb.dropped.purple_shulker_box dropped:purple_shulker_box
 scoreboard objectives add sb.dropped.purple_stained_glass dropped:purple_stained_glass
 scoreboard objectives add sb.dropped.purple_stained_glass_pane dropped:purple_stained_glass_pane
@@ -3904,6 +3959,7 @@ scoreboard objectives add sb.dropped.red_concrete dropped:red_concrete
 scoreboard objectives add sb.dropped.red_concrete_powder dropped:red_concrete_powder
 scoreboard objectives add sb.dropped.red_dye dropped:red_dye
 scoreboard objectives add sb.dropped.red_glazed_terracotta dropped:red_glazed_terracotta
+scoreboard objectives add sb.dropped.red_harness dropped:red_harness
 scoreboard objectives add sb.dropped.red_mushroom dropped:red_mushroom
 scoreboard objectives add sb.dropped.red_mushroom_block dropped:red_mushroom_block
 scoreboard objectives add sb.dropped.red_nether_brick_slab dropped:red_nether_brick_slab
@@ -4221,6 +4277,7 @@ scoreboard objectives add sb.dropped.white_concrete dropped:white_concrete
 scoreboard objectives add sb.dropped.white_concrete_powder dropped:white_concrete_powder
 scoreboard objectives add sb.dropped.white_dye dropped:white_dye
 scoreboard objectives add sb.dropped.white_glazed_terracotta dropped:white_glazed_terracotta
+scoreboard objectives add sb.dropped.white_harness dropped:white_harness
 scoreboard objectives add sb.dropped.white_shulker_box dropped:white_shulker_box
 scoreboard objectives add sb.dropped.white_stained_glass dropped:white_stained_glass
 scoreboard objectives add sb.dropped.white_stained_glass_pane dropped:white_stained_glass_pane
@@ -4253,6 +4310,7 @@ scoreboard objectives add sb.dropped.yellow_concrete dropped:yellow_concrete
 scoreboard objectives add sb.dropped.yellow_concrete_powder dropped:yellow_concrete_powder
 scoreboard objectives add sb.dropped.yellow_dye dropped:yellow_dye
 scoreboard objectives add sb.dropped.yellow_glazed_terracotta dropped:yellow_glazed_terracotta
+scoreboard objectives add sb.dropped.yellow_harness dropped:yellow_harness
 scoreboard objectives add sb.dropped.yellow_shulker_box dropped:yellow_shulker_box
 scoreboard objectives add sb.dropped.yellow_stained_glass dropped:yellow_stained_glass
 scoreboard objectives add sb.dropped.yellow_stained_glass_pane dropped:yellow_stained_glass_pane
@@ -4326,6 +4384,7 @@ scoreboard objectives add sb.killed.glow_item_frame killed:glow_item_frame
 scoreboard objectives add sb.killed.glow_squid killed:glow_squid
 scoreboard objectives add sb.killed.goat killed:goat
 scoreboard objectives add sb.killed.guardian killed:guardian
+scoreboard objectives add sb.killed.happy_ghast killed:happy_ghast
 scoreboard objectives add sb.killed.hoglin killed:hoglin
 scoreboard objectives add sb.killed.hopper_minecart killed:hopper_minecart
 scoreboard objectives add sb.killed.horse killed:horse
@@ -4476,6 +4535,7 @@ scoreboard objectives add sb.killed_by.glow_item_frame killed_by:glow_item_frame
 scoreboard objectives add sb.killed_by.glow_squid killed_by:glow_squid
 scoreboard objectives add sb.killed_by.goat killed_by:goat
 scoreboard objectives add sb.killed_by.guardian killed_by:guardian
+scoreboard objectives add sb.killed_by.happy_ghast killed_by:happy_ghast
 scoreboard objectives add sb.killed_by.hoglin killed_by:hoglin
 scoreboard objectives add sb.killed_by.hopper_minecart killed_by:hopper_minecart
 scoreboard objectives add sb.killed_by.horse killed_by:horse
@@ -4914,6 +4974,7 @@ scoreboard objectives add sb.mined.dispenser mined:dispenser
 scoreboard objectives add sb.mined.dragon_egg mined:dragon_egg
 scoreboard objectives add sb.mined.dragon_head mined:dragon_head
 scoreboard objectives add sb.mined.dragon_wall_head mined:dragon_wall_head
+scoreboard objectives add sb.mined.dried_ghast mined:dried_ghast
 scoreboard objectives add sb.mined.dried_kelp_block mined:dried_kelp_block
 scoreboard objectives add sb.mined.dripstone_block mined:dripstone_block
 scoreboard objectives add sb.mined.dropper mined:dropper
@@ -5771,6 +5832,7 @@ scoreboard objectives add sb.picked_up.black_concrete picked_up:black_concrete
 scoreboard objectives add sb.picked_up.black_concrete_powder picked_up:black_concrete_powder
 scoreboard objectives add sb.picked_up.black_dye picked_up:black_dye
 scoreboard objectives add sb.picked_up.black_glazed_terracotta picked_up:black_glazed_terracotta
+scoreboard objectives add sb.picked_up.black_harness picked_up:black_harness
 scoreboard objectives add sb.picked_up.black_shulker_box picked_up:black_shulker_box
 scoreboard objectives add sb.picked_up.black_stained_glass picked_up:black_stained_glass
 scoreboard objectives add sb.picked_up.black_stained_glass_pane picked_up:black_stained_glass_pane
@@ -5795,6 +5857,7 @@ scoreboard objectives add sb.picked_up.blue_concrete_powder picked_up:blue_concr
 scoreboard objectives add sb.picked_up.blue_dye picked_up:blue_dye
 scoreboard objectives add sb.picked_up.blue_egg picked_up:blue_egg
 scoreboard objectives add sb.picked_up.blue_glazed_terracotta picked_up:blue_glazed_terracotta
+scoreboard objectives add sb.picked_up.blue_harness picked_up:blue_harness
 scoreboard objectives add sb.picked_up.blue_ice picked_up:blue_ice
 scoreboard objectives add sb.picked_up.blue_orchid picked_up:blue_orchid
 scoreboard objectives add sb.picked_up.blue_shulker_box picked_up:blue_shulker_box
@@ -5835,6 +5898,7 @@ scoreboard objectives add sb.picked_up.brown_concrete_powder picked_up:brown_con
 scoreboard objectives add sb.picked_up.brown_dye picked_up:brown_dye
 scoreboard objectives add sb.picked_up.brown_egg picked_up:brown_egg
 scoreboard objectives add sb.picked_up.brown_glazed_terracotta picked_up:brown_glazed_terracotta
+scoreboard objectives add sb.picked_up.brown_harness picked_up:brown_harness
 scoreboard objectives add sb.picked_up.brown_mushroom picked_up:brown_mushroom
 scoreboard objectives add sb.picked_up.brown_mushroom_block picked_up:brown_mushroom_block
 scoreboard objectives add sb.picked_up.brown_shulker_box picked_up:brown_shulker_box
@@ -6001,6 +6065,7 @@ scoreboard objectives add sb.picked_up.cyan_concrete picked_up:cyan_concrete
 scoreboard objectives add sb.picked_up.cyan_concrete_powder picked_up:cyan_concrete_powder
 scoreboard objectives add sb.picked_up.cyan_dye picked_up:cyan_dye
 scoreboard objectives add sb.picked_up.cyan_glazed_terracotta picked_up:cyan_glazed_terracotta
+scoreboard objectives add sb.picked_up.cyan_harness picked_up:cyan_harness
 scoreboard objectives add sb.picked_up.cyan_shulker_box picked_up:cyan_shulker_box
 scoreboard objectives add sb.picked_up.cyan_stained_glass picked_up:cyan_stained_glass
 scoreboard objectives add sb.picked_up.cyan_stained_glass_pane picked_up:cyan_stained_glass_pane
@@ -6092,6 +6157,7 @@ scoreboard objectives add sb.picked_up.donkey_spawn_egg picked_up:donkey_spawn_e
 scoreboard objectives add sb.picked_up.dragon_breath picked_up:dragon_breath
 scoreboard objectives add sb.picked_up.dragon_egg picked_up:dragon_egg
 scoreboard objectives add sb.picked_up.dragon_head picked_up:dragon_head
+scoreboard objectives add sb.picked_up.dried_ghast picked_up:dried_ghast
 scoreboard objectives add sb.picked_up.dried_kelp picked_up:dried_kelp
 scoreboard objectives add sb.picked_up.dried_kelp_block picked_up:dried_kelp_block
 scoreboard objectives add sb.picked_up.dripstone_block picked_up:dripstone_block
@@ -6213,6 +6279,7 @@ scoreboard objectives add sb.picked_up.gray_concrete picked_up:gray_concrete
 scoreboard objectives add sb.picked_up.gray_concrete_powder picked_up:gray_concrete_powder
 scoreboard objectives add sb.picked_up.gray_dye picked_up:gray_dye
 scoreboard objectives add sb.picked_up.gray_glazed_terracotta picked_up:gray_glazed_terracotta
+scoreboard objectives add sb.picked_up.gray_harness picked_up:gray_harness
 scoreboard objectives add sb.picked_up.gray_shulker_box picked_up:gray_shulker_box
 scoreboard objectives add sb.picked_up.gray_stained_glass picked_up:gray_stained_glass
 scoreboard objectives add sb.picked_up.gray_stained_glass_pane picked_up:gray_stained_glass_pane
@@ -6227,6 +6294,7 @@ scoreboard objectives add sb.picked_up.green_concrete picked_up:green_concrete
 scoreboard objectives add sb.picked_up.green_concrete_powder picked_up:green_concrete_powder
 scoreboard objectives add sb.picked_up.green_dye picked_up:green_dye
 scoreboard objectives add sb.picked_up.green_glazed_terracotta picked_up:green_glazed_terracotta
+scoreboard objectives add sb.picked_up.green_harness picked_up:green_harness
 scoreboard objectives add sb.picked_up.green_shulker_box picked_up:green_shulker_box
 scoreboard objectives add sb.picked_up.green_stained_glass picked_up:green_stained_glass
 scoreboard objectives add sb.picked_up.green_stained_glass_pane picked_up:green_stained_glass_pane
@@ -6238,6 +6306,7 @@ scoreboard objectives add sb.picked_up.gunpowder picked_up:gunpowder
 scoreboard objectives add sb.picked_up.guster_banner_pattern picked_up:guster_banner_pattern
 scoreboard objectives add sb.picked_up.guster_pottery_sherd picked_up:guster_pottery_sherd
 scoreboard objectives add sb.picked_up.hanging_roots picked_up:hanging_roots
+scoreboard objectives add sb.picked_up.happy_ghast_spawn_egg picked_up:happy_ghast_spawn_egg
 scoreboard objectives add sb.picked_up.hay_block picked_up:hay_block
 scoreboard objectives add sb.picked_up.heart_of_the_sea picked_up:heart_of_the_sea
 scoreboard objectives add sb.picked_up.heart_pottery_sherd picked_up:heart_pottery_sherd
@@ -6336,6 +6405,7 @@ scoreboard objectives add sb.picked_up.light_blue_concrete picked_up:light_blue_
 scoreboard objectives add sb.picked_up.light_blue_concrete_powder picked_up:light_blue_concrete_powder
 scoreboard objectives add sb.picked_up.light_blue_dye picked_up:light_blue_dye
 scoreboard objectives add sb.picked_up.light_blue_glazed_terracotta picked_up:light_blue_glazed_terracotta
+scoreboard objectives add sb.picked_up.light_blue_harness picked_up:light_blue_harness
 scoreboard objectives add sb.picked_up.light_blue_shulker_box picked_up:light_blue_shulker_box
 scoreboard objectives add sb.picked_up.light_blue_stained_glass picked_up:light_blue_stained_glass
 scoreboard objectives add sb.picked_up.light_blue_stained_glass_pane picked_up:light_blue_stained_glass_pane
@@ -6350,6 +6420,7 @@ scoreboard objectives add sb.picked_up.light_gray_concrete picked_up:light_gray_
 scoreboard objectives add sb.picked_up.light_gray_concrete_powder picked_up:light_gray_concrete_powder
 scoreboard objectives add sb.picked_up.light_gray_dye picked_up:light_gray_dye
 scoreboard objectives add sb.picked_up.light_gray_glazed_terracotta picked_up:light_gray_glazed_terracotta
+scoreboard objectives add sb.picked_up.light_gray_harness picked_up:light_gray_harness
 scoreboard objectives add sb.picked_up.light_gray_shulker_box picked_up:light_gray_shulker_box
 scoreboard objectives add sb.picked_up.light_gray_stained_glass picked_up:light_gray_stained_glass
 scoreboard objectives add sb.picked_up.light_gray_stained_glass_pane picked_up:light_gray_stained_glass_pane
@@ -6369,6 +6440,7 @@ scoreboard objectives add sb.picked_up.lime_concrete picked_up:lime_concrete
 scoreboard objectives add sb.picked_up.lime_concrete_powder picked_up:lime_concrete_powder
 scoreboard objectives add sb.picked_up.lime_dye picked_up:lime_dye
 scoreboard objectives add sb.picked_up.lime_glazed_terracotta picked_up:lime_glazed_terracotta
+scoreboard objectives add sb.picked_up.lime_harness picked_up:lime_harness
 scoreboard objectives add sb.picked_up.lime_shulker_box picked_up:lime_shulker_box
 scoreboard objectives add sb.picked_up.lime_stained_glass picked_up:lime_stained_glass
 scoreboard objectives add sb.picked_up.lime_stained_glass_pane picked_up:lime_stained_glass_pane
@@ -6388,6 +6460,7 @@ scoreboard objectives add sb.picked_up.magenta_concrete picked_up:magenta_concre
 scoreboard objectives add sb.picked_up.magenta_concrete_powder picked_up:magenta_concrete_powder
 scoreboard objectives add sb.picked_up.magenta_dye picked_up:magenta_dye
 scoreboard objectives add sb.picked_up.magenta_glazed_terracotta picked_up:magenta_glazed_terracotta
+scoreboard objectives add sb.picked_up.magenta_harness picked_up:magenta_harness
 scoreboard objectives add sb.picked_up.magenta_shulker_box picked_up:magenta_shulker_box
 scoreboard objectives add sb.picked_up.magenta_stained_glass picked_up:magenta_stained_glass
 scoreboard objectives add sb.picked_up.magenta_stained_glass_pane picked_up:magenta_stained_glass_pane
@@ -6461,6 +6534,7 @@ scoreboard objectives add sb.picked_up.music_disc_precipice picked_up:music_disc
 scoreboard objectives add sb.picked_up.music_disc_relic picked_up:music_disc_relic
 scoreboard objectives add sb.picked_up.music_disc_stal picked_up:music_disc_stal
 scoreboard objectives add sb.picked_up.music_disc_strad picked_up:music_disc_strad
+scoreboard objectives add sb.picked_up.music_disc_tears picked_up:music_disc_tears
 scoreboard objectives add sb.picked_up.music_disc_wait picked_up:music_disc_wait
 scoreboard objectives add sb.picked_up.music_disc_ward picked_up:music_disc_ward
 scoreboard objectives add sb.picked_up.mutton picked_up:mutton
@@ -6527,6 +6601,7 @@ scoreboard objectives add sb.picked_up.orange_concrete picked_up:orange_concrete
 scoreboard objectives add sb.picked_up.orange_concrete_powder picked_up:orange_concrete_powder
 scoreboard objectives add sb.picked_up.orange_dye picked_up:orange_dye
 scoreboard objectives add sb.picked_up.orange_glazed_terracotta picked_up:orange_glazed_terracotta
+scoreboard objectives add sb.picked_up.orange_harness picked_up:orange_harness
 scoreboard objectives add sb.picked_up.orange_shulker_box picked_up:orange_shulker_box
 scoreboard objectives add sb.picked_up.orange_stained_glass picked_up:orange_stained_glass
 scoreboard objectives add sb.picked_up.orange_stained_glass_pane picked_up:orange_stained_glass_pane
@@ -6589,6 +6664,7 @@ scoreboard objectives add sb.picked_up.pink_concrete picked_up:pink_concrete
 scoreboard objectives add sb.picked_up.pink_concrete_powder picked_up:pink_concrete_powder
 scoreboard objectives add sb.picked_up.pink_dye picked_up:pink_dye
 scoreboard objectives add sb.picked_up.pink_glazed_terracotta picked_up:pink_glazed_terracotta
+scoreboard objectives add sb.picked_up.pink_harness picked_up:pink_harness
 scoreboard objectives add sb.picked_up.pink_petals picked_up:pink_petals
 scoreboard objectives add sb.picked_up.pink_shulker_box picked_up:pink_shulker_box
 scoreboard objectives add sb.picked_up.pink_stained_glass picked_up:pink_stained_glass
@@ -6665,6 +6741,7 @@ scoreboard objectives add sb.picked_up.purple_concrete picked_up:purple_concrete
 scoreboard objectives add sb.picked_up.purple_concrete_powder picked_up:purple_concrete_powder
 scoreboard objectives add sb.picked_up.purple_dye picked_up:purple_dye
 scoreboard objectives add sb.picked_up.purple_glazed_terracotta picked_up:purple_glazed_terracotta
+scoreboard objectives add sb.picked_up.purple_harness picked_up:purple_harness
 scoreboard objectives add sb.picked_up.purple_shulker_box picked_up:purple_shulker_box
 scoreboard objectives add sb.picked_up.purple_stained_glass picked_up:purple_stained_glass
 scoreboard objectives add sb.picked_up.purple_stained_glass_pane picked_up:purple_stained_glass_pane
@@ -6704,6 +6781,7 @@ scoreboard objectives add sb.picked_up.red_concrete picked_up:red_concrete
 scoreboard objectives add sb.picked_up.red_concrete_powder picked_up:red_concrete_powder
 scoreboard objectives add sb.picked_up.red_dye picked_up:red_dye
 scoreboard objectives add sb.picked_up.red_glazed_terracotta picked_up:red_glazed_terracotta
+scoreboard objectives add sb.picked_up.red_harness picked_up:red_harness
 scoreboard objectives add sb.picked_up.red_mushroom picked_up:red_mushroom
 scoreboard objectives add sb.picked_up.red_mushroom_block picked_up:red_mushroom_block
 scoreboard objectives add sb.picked_up.red_nether_brick_slab picked_up:red_nether_brick_slab
@@ -7021,6 +7099,7 @@ scoreboard objectives add sb.picked_up.white_concrete picked_up:white_concrete
 scoreboard objectives add sb.picked_up.white_concrete_powder picked_up:white_concrete_powder
 scoreboard objectives add sb.picked_up.white_dye picked_up:white_dye
 scoreboard objectives add sb.picked_up.white_glazed_terracotta picked_up:white_glazed_terracotta
+scoreboard objectives add sb.picked_up.white_harness picked_up:white_harness
 scoreboard objectives add sb.picked_up.white_shulker_box picked_up:white_shulker_box
 scoreboard objectives add sb.picked_up.white_stained_glass picked_up:white_stained_glass
 scoreboard objectives add sb.picked_up.white_stained_glass_pane picked_up:white_stained_glass_pane
@@ -7053,6 +7132,7 @@ scoreboard objectives add sb.picked_up.yellow_concrete picked_up:yellow_concrete
 scoreboard objectives add sb.picked_up.yellow_concrete_powder picked_up:yellow_concrete_powder
 scoreboard objectives add sb.picked_up.yellow_dye picked_up:yellow_dye
 scoreboard objectives add sb.picked_up.yellow_glazed_terracotta picked_up:yellow_glazed_terracotta
+scoreboard objectives add sb.picked_up.yellow_harness picked_up:yellow_harness
 scoreboard objectives add sb.picked_up.yellow_shulker_box picked_up:yellow_shulker_box
 scoreboard objectives add sb.picked_up.yellow_stained_glass picked_up:yellow_stained_glass
 scoreboard objectives add sb.picked_up.yellow_stained_glass_pane picked_up:yellow_stained_glass_pane
@@ -7167,6 +7247,7 @@ scoreboard objectives add sb.used.black_concrete used:black_concrete
 scoreboard objectives add sb.used.black_concrete_powder used:black_concrete_powder
 scoreboard objectives add sb.used.black_dye used:black_dye
 scoreboard objectives add sb.used.black_glazed_terracotta used:black_glazed_terracotta
+scoreboard objectives add sb.used.black_harness used:black_harness
 scoreboard objectives add sb.used.black_shulker_box used:black_shulker_box
 scoreboard objectives add sb.used.black_stained_glass used:black_stained_glass
 scoreboard objectives add sb.used.black_stained_glass_pane used:black_stained_glass_pane
@@ -7191,6 +7272,7 @@ scoreboard objectives add sb.used.blue_concrete_powder used:blue_concrete_powder
 scoreboard objectives add sb.used.blue_dye used:blue_dye
 scoreboard objectives add sb.used.blue_egg used:blue_egg
 scoreboard objectives add sb.used.blue_glazed_terracotta used:blue_glazed_terracotta
+scoreboard objectives add sb.used.blue_harness used:blue_harness
 scoreboard objectives add sb.used.blue_ice used:blue_ice
 scoreboard objectives add sb.used.blue_orchid used:blue_orchid
 scoreboard objectives add sb.used.blue_shulker_box used:blue_shulker_box
@@ -7231,6 +7313,7 @@ scoreboard objectives add sb.used.brown_concrete_powder used:brown_concrete_powd
 scoreboard objectives add sb.used.brown_dye used:brown_dye
 scoreboard objectives add sb.used.brown_egg used:brown_egg
 scoreboard objectives add sb.used.brown_glazed_terracotta used:brown_glazed_terracotta
+scoreboard objectives add sb.used.brown_harness used:brown_harness
 scoreboard objectives add sb.used.brown_mushroom used:brown_mushroom
 scoreboard objectives add sb.used.brown_mushroom_block used:brown_mushroom_block
 scoreboard objectives add sb.used.brown_shulker_box used:brown_shulker_box
@@ -7397,6 +7480,7 @@ scoreboard objectives add sb.used.cyan_concrete used:cyan_concrete
 scoreboard objectives add sb.used.cyan_concrete_powder used:cyan_concrete_powder
 scoreboard objectives add sb.used.cyan_dye used:cyan_dye
 scoreboard objectives add sb.used.cyan_glazed_terracotta used:cyan_glazed_terracotta
+scoreboard objectives add sb.used.cyan_harness used:cyan_harness
 scoreboard objectives add sb.used.cyan_shulker_box used:cyan_shulker_box
 scoreboard objectives add sb.used.cyan_stained_glass used:cyan_stained_glass
 scoreboard objectives add sb.used.cyan_stained_glass_pane used:cyan_stained_glass_pane
@@ -7488,6 +7572,7 @@ scoreboard objectives add sb.used.donkey_spawn_egg used:donkey_spawn_egg
 scoreboard objectives add sb.used.dragon_breath used:dragon_breath
 scoreboard objectives add sb.used.dragon_egg used:dragon_egg
 scoreboard objectives add sb.used.dragon_head used:dragon_head
+scoreboard objectives add sb.used.dried_ghast used:dried_ghast
 scoreboard objectives add sb.used.dried_kelp used:dried_kelp
 scoreboard objectives add sb.used.dried_kelp_block used:dried_kelp_block
 scoreboard objectives add sb.used.dripstone_block used:dripstone_block
@@ -7609,6 +7694,7 @@ scoreboard objectives add sb.used.gray_concrete used:gray_concrete
 scoreboard objectives add sb.used.gray_concrete_powder used:gray_concrete_powder
 scoreboard objectives add sb.used.gray_dye used:gray_dye
 scoreboard objectives add sb.used.gray_glazed_terracotta used:gray_glazed_terracotta
+scoreboard objectives add sb.used.gray_harness used:gray_harness
 scoreboard objectives add sb.used.gray_shulker_box used:gray_shulker_box
 scoreboard objectives add sb.used.gray_stained_glass used:gray_stained_glass
 scoreboard objectives add sb.used.gray_stained_glass_pane used:gray_stained_glass_pane
@@ -7623,6 +7709,7 @@ scoreboard objectives add sb.used.green_concrete used:green_concrete
 scoreboard objectives add sb.used.green_concrete_powder used:green_concrete_powder
 scoreboard objectives add sb.used.green_dye used:green_dye
 scoreboard objectives add sb.used.green_glazed_terracotta used:green_glazed_terracotta
+scoreboard objectives add sb.used.green_harness used:green_harness
 scoreboard objectives add sb.used.green_shulker_box used:green_shulker_box
 scoreboard objectives add sb.used.green_stained_glass used:green_stained_glass
 scoreboard objectives add sb.used.green_stained_glass_pane used:green_stained_glass_pane
@@ -7634,6 +7721,7 @@ scoreboard objectives add sb.used.gunpowder used:gunpowder
 scoreboard objectives add sb.used.guster_banner_pattern used:guster_banner_pattern
 scoreboard objectives add sb.used.guster_pottery_sherd used:guster_pottery_sherd
 scoreboard objectives add sb.used.hanging_roots used:hanging_roots
+scoreboard objectives add sb.used.happy_ghast_spawn_egg used:happy_ghast_spawn_egg
 scoreboard objectives add sb.used.hay_block used:hay_block
 scoreboard objectives add sb.used.heart_of_the_sea used:heart_of_the_sea
 scoreboard objectives add sb.used.heart_pottery_sherd used:heart_pottery_sherd
@@ -7732,6 +7820,7 @@ scoreboard objectives add sb.used.light_blue_concrete used:light_blue_concrete
 scoreboard objectives add sb.used.light_blue_concrete_powder used:light_blue_concrete_powder
 scoreboard objectives add sb.used.light_blue_dye used:light_blue_dye
 scoreboard objectives add sb.used.light_blue_glazed_terracotta used:light_blue_glazed_terracotta
+scoreboard objectives add sb.used.light_blue_harness used:light_blue_harness
 scoreboard objectives add sb.used.light_blue_shulker_box used:light_blue_shulker_box
 scoreboard objectives add sb.used.light_blue_stained_glass used:light_blue_stained_glass
 scoreboard objectives add sb.used.light_blue_stained_glass_pane used:light_blue_stained_glass_pane
@@ -7746,6 +7835,7 @@ scoreboard objectives add sb.used.light_gray_concrete used:light_gray_concrete
 scoreboard objectives add sb.used.light_gray_concrete_powder used:light_gray_concrete_powder
 scoreboard objectives add sb.used.light_gray_dye used:light_gray_dye
 scoreboard objectives add sb.used.light_gray_glazed_terracotta used:light_gray_glazed_terracotta
+scoreboard objectives add sb.used.light_gray_harness used:light_gray_harness
 scoreboard objectives add sb.used.light_gray_shulker_box used:light_gray_shulker_box
 scoreboard objectives add sb.used.light_gray_stained_glass used:light_gray_stained_glass
 scoreboard objectives add sb.used.light_gray_stained_glass_pane used:light_gray_stained_glass_pane
@@ -7765,6 +7855,7 @@ scoreboard objectives add sb.used.lime_concrete used:lime_concrete
 scoreboard objectives add sb.used.lime_concrete_powder used:lime_concrete_powder
 scoreboard objectives add sb.used.lime_dye used:lime_dye
 scoreboard objectives add sb.used.lime_glazed_terracotta used:lime_glazed_terracotta
+scoreboard objectives add sb.used.lime_harness used:lime_harness
 scoreboard objectives add sb.used.lime_shulker_box used:lime_shulker_box
 scoreboard objectives add sb.used.lime_stained_glass used:lime_stained_glass
 scoreboard objectives add sb.used.lime_stained_glass_pane used:lime_stained_glass_pane
@@ -7784,6 +7875,7 @@ scoreboard objectives add sb.used.magenta_concrete used:magenta_concrete
 scoreboard objectives add sb.used.magenta_concrete_powder used:magenta_concrete_powder
 scoreboard objectives add sb.used.magenta_dye used:magenta_dye
 scoreboard objectives add sb.used.magenta_glazed_terracotta used:magenta_glazed_terracotta
+scoreboard objectives add sb.used.magenta_harness used:magenta_harness
 scoreboard objectives add sb.used.magenta_shulker_box used:magenta_shulker_box
 scoreboard objectives add sb.used.magenta_stained_glass used:magenta_stained_glass
 scoreboard objectives add sb.used.magenta_stained_glass_pane used:magenta_stained_glass_pane
@@ -7857,6 +7949,7 @@ scoreboard objectives add sb.used.music_disc_precipice used:music_disc_precipice
 scoreboard objectives add sb.used.music_disc_relic used:music_disc_relic
 scoreboard objectives add sb.used.music_disc_stal used:music_disc_stal
 scoreboard objectives add sb.used.music_disc_strad used:music_disc_strad
+scoreboard objectives add sb.used.music_disc_tears used:music_disc_tears
 scoreboard objectives add sb.used.music_disc_wait used:music_disc_wait
 scoreboard objectives add sb.used.music_disc_ward used:music_disc_ward
 scoreboard objectives add sb.used.mutton used:mutton
@@ -7923,6 +8016,7 @@ scoreboard objectives add sb.used.orange_concrete used:orange_concrete
 scoreboard objectives add sb.used.orange_concrete_powder used:orange_concrete_powder
 scoreboard objectives add sb.used.orange_dye used:orange_dye
 scoreboard objectives add sb.used.orange_glazed_terracotta used:orange_glazed_terracotta
+scoreboard objectives add sb.used.orange_harness used:orange_harness
 scoreboard objectives add sb.used.orange_shulker_box used:orange_shulker_box
 scoreboard objectives add sb.used.orange_stained_glass used:orange_stained_glass
 scoreboard objectives add sb.used.orange_stained_glass_pane used:orange_stained_glass_pane
@@ -7985,6 +8079,7 @@ scoreboard objectives add sb.used.pink_concrete used:pink_concrete
 scoreboard objectives add sb.used.pink_concrete_powder used:pink_concrete_powder
 scoreboard objectives add sb.used.pink_dye used:pink_dye
 scoreboard objectives add sb.used.pink_glazed_terracotta used:pink_glazed_terracotta
+scoreboard objectives add sb.used.pink_harness used:pink_harness
 scoreboard objectives add sb.used.pink_petals used:pink_petals
 scoreboard objectives add sb.used.pink_shulker_box used:pink_shulker_box
 scoreboard objectives add sb.used.pink_stained_glass used:pink_stained_glass
@@ -8061,6 +8156,7 @@ scoreboard objectives add sb.used.purple_concrete used:purple_concrete
 scoreboard objectives add sb.used.purple_concrete_powder used:purple_concrete_powder
 scoreboard objectives add sb.used.purple_dye used:purple_dye
 scoreboard objectives add sb.used.purple_glazed_terracotta used:purple_glazed_terracotta
+scoreboard objectives add sb.used.purple_harness used:purple_harness
 scoreboard objectives add sb.used.purple_shulker_box used:purple_shulker_box
 scoreboard objectives add sb.used.purple_stained_glass used:purple_stained_glass
 scoreboard objectives add sb.used.purple_stained_glass_pane used:purple_stained_glass_pane
@@ -8100,6 +8196,7 @@ scoreboard objectives add sb.used.red_concrete used:red_concrete
 scoreboard objectives add sb.used.red_concrete_powder used:red_concrete_powder
 scoreboard objectives add sb.used.red_dye used:red_dye
 scoreboard objectives add sb.used.red_glazed_terracotta used:red_glazed_terracotta
+scoreboard objectives add sb.used.red_harness used:red_harness
 scoreboard objectives add sb.used.red_mushroom used:red_mushroom
 scoreboard objectives add sb.used.red_mushroom_block used:red_mushroom_block
 scoreboard objectives add sb.used.red_nether_brick_slab used:red_nether_brick_slab
@@ -8417,6 +8514,7 @@ scoreboard objectives add sb.used.white_concrete used:white_concrete
 scoreboard objectives add sb.used.white_concrete_powder used:white_concrete_powder
 scoreboard objectives add sb.used.white_dye used:white_dye
 scoreboard objectives add sb.used.white_glazed_terracotta used:white_glazed_terracotta
+scoreboard objectives add sb.used.white_harness used:white_harness
 scoreboard objectives add sb.used.white_shulker_box used:white_shulker_box
 scoreboard objectives add sb.used.white_stained_glass used:white_stained_glass
 scoreboard objectives add sb.used.white_stained_glass_pane used:white_stained_glass_pane
@@ -8449,6 +8547,7 @@ scoreboard objectives add sb.used.yellow_concrete used:yellow_concrete
 scoreboard objectives add sb.used.yellow_concrete_powder used:yellow_concrete_powder
 scoreboard objectives add sb.used.yellow_dye used:yellow_dye
 scoreboard objectives add sb.used.yellow_glazed_terracotta used:yellow_glazed_terracotta
+scoreboard objectives add sb.used.yellow_harness used:yellow_harness
 scoreboard objectives add sb.used.yellow_shulker_box used:yellow_shulker_box
 scoreboard objectives add sb.used.yellow_stained_glass used:yellow_stained_glass
 scoreboard objectives add sb.used.yellow_stained_glass_pane used:yellow_stained_glass_pane
