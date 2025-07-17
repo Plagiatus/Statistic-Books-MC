@@ -51,7 +51,7 @@ For the book to actually receive updates about the tracked statistics, **it need
 
 #### How to know the scoreboard name
 
-You can track **any scoreboard objective**, not just the built-in ones but ones you create yourself as well. The pack comes with a function that creates all statistic type scoreboards the game has to offer - just shy of 8000 of them. **If you want to add that, run `/function sb:setup_objectives` right after loading the datapack!**
+You can track **any scoreboard objective**, not just the built-in ones but ones you create yourself as well. The pack comes with a function that creates all statistic type scoreboards the game has to offer - just shy of 8000 of them. **If you want to add that, run `/function sb:setup_objectives` right after loading the datapack!** However, be aware that having a lot of scoreboard objectives can cause noticable lagspikes in your game when the game saves those scores to the file system.
 
 To find out what statistics are available, consult the wiki: https://minecraft.fandom.com/wiki/Statistics
 
