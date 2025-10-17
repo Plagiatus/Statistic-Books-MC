@@ -1,6 +1,6 @@
 {
 	"pack": {
-		"pack_format": 80,
+		"pack_format": 81,
 		"description": ["",{"text":"Plagiatus", "color":"red"},"' Statistics and Books datapack. Go to ",{"text":"github.com/Plagiatus/Statistic-Books-MC","color":"blue","underlined":true}," to learn more."]
 	}
 }

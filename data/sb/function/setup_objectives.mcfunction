@@ -798,6 +798,7 @@ scoreboard objectives add sb.broken.music_disc_chirp broken:music_disc_chirp
 scoreboard objectives add sb.broken.music_disc_creator broken:music_disc_creator
 scoreboard objectives add sb.broken.music_disc_creator_music_box broken:music_disc_creator_music_box
 scoreboard objectives add sb.broken.music_disc_far broken:music_disc_far
+scoreboard objectives add sb.broken.music_disc_lava_chicken broken:music_disc_lava_chicken
 scoreboard objectives add sb.broken.music_disc_mall broken:music_disc_mall
 scoreboard objectives add sb.broken.music_disc_mellohi broken:music_disc_mellohi
 scoreboard objectives add sb.broken.music_disc_otherside broken:music_disc_otherside
@@ -2213,6 +2214,7 @@ scoreboard objectives add sb.crafted.music_disc_chirp crafted:music_disc_chirp
 scoreboard objectives add sb.crafted.music_disc_creator crafted:music_disc_creator
 scoreboard objectives add sb.crafted.music_disc_creator_music_box crafted:music_disc_creator_music_box
 scoreboard objectives add sb.crafted.music_disc_far crafted:music_disc_far
+scoreboard objectives add sb.crafted.music_disc_lava_chicken crafted:music_disc_lava_chicken
 scoreboard objectives add sb.crafted.music_disc_mall crafted:music_disc_mall
 scoreboard objectives add sb.crafted.music_disc_mellohi crafted:music_disc_mellohi
 scoreboard objectives add sb.crafted.music_disc_otherside crafted:music_disc_otherside
@@ -3704,6 +3706,7 @@ scoreboard objectives add sb.dropped.music_disc_chirp dropped:music_disc_chirp
 scoreboard objectives add sb.dropped.music_disc_creator dropped:music_disc_creator
 scoreboard objectives add sb.dropped.music_disc_creator_music_box dropped:music_disc_creator_music_box
 scoreboard objectives add sb.dropped.music_disc_far dropped:music_disc_far
+scoreboard objectives add sb.dropped.music_disc_lava_chicken dropped:music_disc_lava_chicken
 scoreboard objectives add sb.dropped.music_disc_mall dropped:music_disc_mall
 scoreboard objectives add sb.dropped.music_disc_mellohi dropped:music_disc_mellohi
 scoreboard objectives add sb.dropped.music_disc_otherside dropped:music_disc_otherside
@@ -6526,6 +6529,7 @@ scoreboard objectives add sb.picked_up.music_disc_chirp picked_up:music_disc_chi
 scoreboard objectives add sb.picked_up.music_disc_creator picked_up:music_disc_creator
 scoreboard objectives add sb.picked_up.music_disc_creator_music_box picked_up:music_disc_creator_music_box
 scoreboard objectives add sb.picked_up.music_disc_far picked_up:music_disc_far
+scoreboard objectives add sb.picked_up.music_disc_lava_chicken picked_up:music_disc_lava_chicken
 scoreboard objectives add sb.picked_up.music_disc_mall picked_up:music_disc_mall
 scoreboard objectives add sb.picked_up.music_disc_mellohi picked_up:music_disc_mellohi
 scoreboard objectives add sb.picked_up.music_disc_otherside picked_up:music_disc_otherside
@@ -7941,6 +7945,7 @@ scoreboard objectives add sb.used.music_disc_chirp used:music_disc_chirp
 scoreboard objectives add sb.used.music_disc_creator used:music_disc_creator
 scoreboard objectives add sb.used.music_disc_creator_music_box used:music_disc_creator_music_box
 scoreboard objectives add sb.used.music_disc_far used:music_disc_far
+scoreboard objectives add sb.used.music_disc_lava_chicken used:music_disc_lava_chicken
 scoreboard objectives add sb.used.music_disc_mall used:music_disc_mall
 scoreboard objectives add sb.used.music_disc_mellohi used:music_disc_mellohi
 scoreboard objectives add sb.used.music_disc_otherside used:music_disc_otherside
