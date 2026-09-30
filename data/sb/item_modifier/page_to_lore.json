@@ -1,15 +1,13 @@
-[
-	{
-		"function": "set_lore",
-		"lore": [
-			{
-				"nbt": "book.pageArray[]",
-				"storage": "sb:tmp",
-				"separator": "\n",
-				"interpret": true
-			}
-		],
-		"entity": "this",
-		"mode": "replace_all"
-	}
-]
+{
+	"type": "minecraft:set_lore",
+	"lore": [
+		{
+			"nbt": "book.pageArray[]",
+			"storage": "sb:tmp",
+			"separator": "\n",
+			"interpret": true
+		}
+	],
+	"entity": "this",
+	"mode": "replace_all"
+}
